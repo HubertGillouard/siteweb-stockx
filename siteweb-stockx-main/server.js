@@ -7,10 +7,12 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 4001;
+const port = process.env.PORT || 4000;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: "http://localhost:3001" // <-- Autoriser le front
+}));
 app.use(bodyParser.json());
 
 // Route racine
@@ -65,6 +67,11 @@ const pool = new Pool({
   password: process.env.DB_PASS || 'motdepasse',
   port: process.env.DB_PORT || 5432,
 });
+
+// Vérification connexion DB
+pool.connect()
+  .then(() => console.log("✅ Connecté à PostgreSQL"))
+  .catch((err) => console.error("❌ Erreur connexion PostgreSQL:", err));
 
 // Clé secrète pour JWT
 const SECRET_KEY = process.env.JWT_SECRET || 'supersecret123';

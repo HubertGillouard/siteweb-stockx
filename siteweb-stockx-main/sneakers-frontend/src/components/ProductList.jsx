@@ -1,27 +1,55 @@
-import React, { useEffect, useState } from 'react';
-import { getProducts } from '../api/api';
-import { Grid } from '@mui/material';
-import ProductCard from './ProductCard';
+import { useEffect, useState } from "react";
+import { getProducts, getImages, deleteProduct } from "../api";
 
 export default function ProductList() {
   const [products, setProducts] = useState([]);
-  const [loading, setLoading] = useState(true);
+
+  const fetchProducts = async () => {
+    try {
+      const res = await getProducts();
+      const data = res.data;
+
+      const productsWithImages = await Promise.all(
+        data.map(async (product) => {
+          const imgRes = await getImages(product.id);
+          return {
+            ...product,
+            image: imgRes.data[0]?.url || "/placeholder.jpg",
+          };
+        })
+      );
+
+      setProducts(productsWithImages);
+    } catch (error) {
+      console.error("Erreur de chargement:", error);
+    }
+  };
+
+  const handleDelete = async (id) => {
+    try {
+      await deleteProduct(id);
+      setProducts(products.filter((p) => p.id !== id));
+    } catch (err) {
+      console.error(err);
+    }
+  };
 
   useEffect(() => {
-    getProducts()
-      .then(res => setProducts(res.data))
-      .finally(() => setLoading(false));
+    fetchProducts();
   }, []);
 
-  if (loading) return <p style={{ textAlign: 'center' }}>Chargement des produits...</p>;
-
   return (
-    <Grid container spacing={3} sx={{ padding: 2 }}>
-      {products.map(product => (
-        <Grid item xs={12} sm={6} md={4} lg={3} key={product.id}>
-          <ProductCard product={product} />
-        </Grid>
-      ))}
-    </Grid>
+    <div>
+      <h2>Produits</h2>
+      <ul>
+        {products.map((p) => (
+          <li key={p.id}>
+            <img src={p.image} alt={p.name} width={50} style={{ marginRight: 10 }} />
+            {p.name} - ${p.price}{" "}
+            <button onClick={() => handleDelete(p.id)}>Supprimer</button>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }

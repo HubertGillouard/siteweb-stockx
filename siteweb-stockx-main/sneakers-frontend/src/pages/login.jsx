@@ -1,46 +1,76 @@
-// src/components/Login.jsx
 import { useState } from "react";
-import { login } from "../api/api";
+import { login, register } from "../api/api";
 import { TextField, Button, Typography } from "@mui/material";
 
 export default function Login({ onLogin }) {
-  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [isRegister, setIsRegister] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await login({ username, password });
+      const data = isRegister
+        ? { email, password, first_name: firstName, last_name: lastName }
+        : { email, password };
+      const res = isRegister ? await register(data) : await login(data);
       if (res.data.token) {
         localStorage.setItem("token", res.data.token);
-        onLogin(res.data.user); // passe l'admin à App.jsx
+        localStorage.setItem("role", res.data.user.role);
+        onLogin(res.data.user);
       } else {
         alert("Identifiants invalides");
       }
     } catch (err) {
-      alert("Erreur de connexion");
+      alert(err.response?.data?.message || "Erreur serveur");
     }
   };
 
   return (
     <form onSubmit={handleSubmit} style={{ padding: 20 }}>
-      <Typography variant="h5">Connexion Admin</Typography>
+      <Typography variant="h5">{isRegister ? "Inscription" : "Connexion"}</Typography>
+      {isRegister && (
+        <>
+          <TextField
+            label="Prénom"
+            value={firstName}
+            onChange={(e) => setFirstName(e.target.value)}
+            sx={{ display: "block", my: 1 }}
+          />
+          <TextField
+            label="Nom"
+            value={lastName}
+            onChange={(e) => setLastName(e.target.value)}
+            sx={{ display: "block", my: 1 }}
+          />
+        </>
+      )}
       <TextField
-        label="Username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
+        type="email"
+        label="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
         sx={{ display: "block", my: 1 }}
       />
       <TextField
         type="password"
-        label="Password"
+        label="Mot de passe"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
         sx={{ display: "block", my: 1 }}
       />
-      <Button type="submit" variant="contained">
-        Se connecter
+      <Button type="submit" variant="contained" sx={{ my: 1 }}>
+        {isRegister ? "S'inscrire" : "Se connecter"}
       </Button>
+      <Typography
+        variant="body2"
+        sx={{ mt: 1, cursor: "pointer", color: "blue" }}
+        onClick={() => setIsRegister(!isRegister)}
+      >
+        {isRegister ? "Déjà un compte ? Se connecter" : "Pas de compte ? S'inscrire"}
+      </Typography>
     </form>
   );
 }

@@ -1,37 +1,27 @@
 import React, { useEffect, useState } from "react";
-import {
-  getProducts,
-  createProduct,
-  deleteProduct,
-  createVariant,
-} from '../api/api';
-import {
-  Typography,
-  TextField,
-  Button,
-  List,
-  ListItem,
-  Divider,
-} from "@mui/material";
+import { getProducts, createProduct, deleteProduct } from "../api/api";
+import { Typography, TextField, Button, List, ListItem, Divider } from "@mui/material";
 
 export default function AdminDashboard() {
   const [products, setProducts] = useState([]);
   const [newProduct, setNewProduct] = useState({ name: "", price: "" });
+  const token = localStorage.getItem("token");
 
-  const refresh = () => getProducts().then((res) => setProducts(res.data));
+  const refresh = () => getProducts(token).then((res) => setProducts(res.data));
 
   useEffect(() => {
     refresh();
   }, []);
 
   const handleAddProduct = async () => {
-    await createProduct(newProduct);
+    if (!newProduct.name || !newProduct.price) return alert("Remplissez tous les champs");
+    await createProduct(newProduct, token);
     setNewProduct({ name: "", price: "" });
     refresh();
   };
 
   const handleDelete = async (id) => {
-    await deleteProduct(id);
+    await deleteProduct(id, token);
     refresh();
   };
 
@@ -49,6 +39,7 @@ export default function AdminDashboard() {
       />
       <TextField
         label="Prix"
+        type="number"
         value={newProduct.price}
         onChange={(e) => setNewProduct({ ...newProduct, price: e.target.value })}
         sx={{ mr: 1 }}

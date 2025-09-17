@@ -1,16 +1,26 @@
-import React, { useContext } from "react";
-import { CartContext } from "../contexts/CartContext";
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Header() {
-  const { cart } = useContext(CartContext);
+  const role = localStorage.getItem("role");
+
+  const handleLogout = () => {
+    localStorage.clear();
+    window.location.reload();
+  };
 
   return (
-    <header>
-      <div>Accueil</div>
+    <header style={{ padding: 10, display: "flex", justifyContent: "space-between" }}>
       <div>
-        <Link to="/">Nos Sneakers</Link>
-        <Link to="/checkout">Panier ({cart.length})</Link>
+        <Link to="/" style={{ marginRight: 10 }}>Accueil</Link>
+        {role === "admin" && <Link to="/admin">Dashboard Admin</Link>}
+      </div>
+      <div>
+        {role ? (
+          <button onClick={handleLogout}>Déconnexion</button>
+        ) : (
+          <Link to="/login">Connexion</Link>
+        )}
       </div>
     </header>
   );
