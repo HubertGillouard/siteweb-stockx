@@ -1,15 +1,17 @@
-import React from 'react';
-import { AppBar, Toolbar, Typography } from '@mui/material';
-import { Link } from 'react-router-dom';
+import React, { useContext } from "react";
+import { CartContext } from "../contexts/CartContext";
+import { Link } from "react-router-dom";
 
 export default function Header() {
+  const { cart } = useContext(CartContext);
+
   return (
-    <AppBar position="static">
-      <Toolbar>
-        <Typography variant="h6" component={Link} to="/" color="inherit" sx={{ textDecoration: 'none' }}>
-          Sneakers Shop
-        </Typography>
-      </Toolbar>
-    </AppBar>
+    <header>
+      <div>Accueil</div>
+      <div>
+        <Link to="/">Nos Sneakers</Link>
+        <Link to="/checkout">Panier ({cart.length})</Link>
+      </div>
+    </header>
   );
 }
