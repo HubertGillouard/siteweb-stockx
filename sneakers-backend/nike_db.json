@@ -1,0 +1,8065 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "hommes"
+    },
+    {
+      "id": 2,
+      "name": "femmes"
+    },
+    {
+      "id": 3,
+      "name": "enfants"
+    }
+  ],
+  "marques": [
+    {
+      "id": 1,
+      "name": "Nike"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike P-6000 en daim",
+      "price": "119,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-p-6000-en-daim-pour-94FKkUHq/IH4382-200"
+    },
+    {
+      "id": 2,
+      "name": "Nike P-6000",
+      "price": "109,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussure-p-6000-RqKVWQgs/CD6404-107"
+    },
+    {
+      "id": 3,
+      "name": "Nike Air Force 1 '07 LV8",
+      "price": "119,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-air-force-1-07-lv8-pour-vO72tFNp/IB6388-003"
+    },
+    {
+      "id": 4,
+      "name": "Nike Air Force 1 '07",
+      "price": "129,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-air-force-1-07-pour-Lm8qpbC9/IH7332-001"
+    },
+    {
+      "id": 5,
+      "name": "Nike Ava Rover",
+      "price": "139,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-ava-rover-lJnNmF/DX4215-003"
+    },
+    {
+      "id": 6,
+      "name": "Nike Reax 8 TR",
+      "price": "89,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-dentrainement-reax-8-tr-pour-1Rb3b0/621716-033"
+    },
+    {
+      "id": 7,
+      "name": "Air Jordan 4 Retro « Cave Stone and Black »",
+      "price": "209,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-air-jordan-4-retro-cave-stone-and-black-pour-HtLkgl/FV5029-200"
+    },
+    {
+      "id": 8,
+      "name": "Air Jordan 1 Low",
+      "price": "129,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussure-air-jordan-1-low-pour-9g1Rdg/553558-169"
+    },
+    {
+      "id": 9,
+      "name": "Nike Air Monarch IV",
+      "price": "74,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-dentrainement-air-monarch-iv-pour-dHvlpg/415445-102"
+    },
+    {
+      "id": 10,
+      "name": "Nike Pegasus Premium",
+      "price": "209,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-de-running-sur-route-pegasus-pour-DRPOJVUu/II6308-600"
+    },
+    {
+      "id": 11,
+      "name": "Nike Pegasus Premium LV8",
+      "price": "209,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-de-running-sur-route-pegasus-lv8-pour-DK3cCPMs/IH3256-700"
+    },
+    {
+      "id": 12,
+      "name": "Nike P-6000 « Denim »",
+      "price": "119,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-p-6000-denim-pour-dgeUbrfj/IH3646-499"
+    },
+    {
+      "id": 13,
+      "name": "Nike Air Force 1 Low Retro Premium",
+      "price": "139,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-air-force-1-low-retro-pour-XHrVOGry/IM3078-100"
+    },
+    {
+      "id": 14,
+      "name": "Nike Air Max 95 « Big Bubble »",
+      "price": "189,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussure-air-max-95-big-bubble-pour-cbxu16ox/HM8755-001"
+    },
+    {
+      "id": 15,
+      "name": "Nike Air Max Plus",
+      "price": "199,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-air-max-plus-WWM1O4Lz/IH4458-001"
+    },
+    {
+      "id": 16,
+      "name": "Nike Court Vision Low",
+      "price": "79,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussures-court-vision-low-pour-ONH9vR25/HM9862-003"
+    },
+    {
+      "id": 17,
+      "name": "Nike Air Force 1 Luxe",
+      "price": "139,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussures-air-force-1-luxe-pour-ZyIrJFlT/DD9605-100"
+    },
+    {
+      "id": 18,
+      "name": "Nike Air Max Dn8",
+      "price": "189,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussure-air-max-dn8-pour-S1sOsK7n/FQ7860-002"
+    },
+    {
+      "id": 19,
+      "name": "Nike Air Max 90",
+      "price": "149,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-air-max-90-pour-eabTKsIq/DM0029-401"
+    },
+    {
+      "id": 20,
+      "name": "Nike Air Zoom Spiridon Cage 2",
+      "price": "169,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-air-zoom-spiridon-cage-2-pour-aqdu7l9L/HM8497-010"
+    },
+    {
+      "id": 21,
+      "name": "Nike Air Max Alpha Trainer 6",
+      "price": "89,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-dentrainement-air-max-alpha-trainer-6-pour-4RnBJ0/FQ1833-003"
+    },
+    {
+      "id": 22,
+      "name": "Air Jordan 1 Mid",
+      "price": "139,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussure-air-jordan-1-mid-pour-z1M4Pa0b/DQ8426-101"
+    },
+    {
+      "id": 23,
+      "name": "Jordan Spizike Low",
+      "price": "169,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-jordan-spizike-low-pour-S1JYZpUo/IM2176-133"
+    },
+    {
+      "id": 24,
+      "name": "Nike Air Max Dn",
+      "price": "169,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussure-air-max-dn-na8hi6gI/DV3337-101"
+    },
+    {
+      "id": 25,
+      "name": "Nike Air Max 90",
+      "price": "149,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-air-max-90-pour-GHOqOQoI/CN8490-100"
+    },
+    {
+      "id": 26,
+      "name": "Tatum 3 « Tie Dye »",
+      "price": "129,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-de-basket-tatum-3-tie-dye-qxNiW2Ot/FZ6598-400"
+    },
+    {
+      "id": 27,
+      "name": "Jordan Heir Series",
+      "price": "109,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussure-de-basket-jordan-heir-series-gJSoFD9d/IO0409-108"
+    },
+    {
+      "id": 28,
+      "name": "Nike Shox R4",
+      "price": "149,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussure-shox-r4-pour-IUejfqaZ/HQ1988-101"
+    },
+    {
+      "id": 29,
+      "name": "Nike Zoom Vomero 5",
+      "price": "159,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-zoom-vomero-5-pour-gzqpHQ/BV1358-001"
+    },
+    {
+      "id": 30,
+      "name": "Nike Zoom Vomero 5",
+      "price": "159,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussure-zoom-vomero-5-pour-q85lkg/FB9149-005"
+    },
+    {
+      "id": 31,
+      "name": "Paris Saint-Germain Air Max Plus Premium",
+      "price": "199,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-paris-saint-germain-air-max-plus-pour-L3Bnhluw/IB2253-001"
+    },
+    {
+      "id": 32,
+      "name": "Air Jordan 1 Low Premium",
+      "price": "139,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-air-jordan-1-low-pour-Fwn1m6cN/IB8058-110"
+    },
+    {
+      "id": 33,
+      "name": "Nike Pegasus 41 SE",
+      "price": "149,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-de-running-sur-route-pegasus-41-se-pour-5WbXfh/IH3583-999"
+    },
+    {
+      "id": 34,
+      "name": "Nike Air Max Plus",
+      "price": "199,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-air-max-plus-pour-ZAmZMX9P/IH4459-025"
+    },
+    {
+      "id": 35,
+      "name": "Nike Tiempo Legend 10 Club",
+      "price": "54,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-de-foot-basse-a-crampons-multi-surfaces-tiempo-legend-10-club-zfeDslCY/DV4344-003"
+    },
+    {
+      "id": 36,
+      "name": "Nike Zoom Vomero 5",
+      "price": "159,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-zoom-vomero-5-pour-K3gvQuL5/HF1553-101"
+    },
+    {
+      "id": 37,
+      "name": "Nike Air Max Dn",
+      "price": "169,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-air-max-dn-pour-wKxzvjH9/IH4463-001"
+    },
+    {
+      "id": 38,
+      "name": "Nike Air Max Dn8",
+      "price": "189,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-air-max-dn8-pour-2U281Cg7/FQ7860-001"
+    },
+    {
+      "id": 39,
+      "name": "Nike Air Force 1 Flyknit 2.0",
+      "price": "119,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-air-force-1-flyknit-2-7EHtWGRa/AV3042-001"
+    },
+    {
+      "id": 40,
+      "name": "Air Jordan 4RM",
+      "price": "149,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-air-jordan-4rm-9oPLQrjD/IH4488-072"
+    },
+    {
+      "id": 41,
+      "name": "Luka 4 « Light Orewood and Tangerine »",
+      "price": "129,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussure-de-basket-luka-4-light-orewood-and-tangerine-IAbf2mix/IO0202-100"
+    },
+    {
+      "id": 42,
+      "name": "Nike V5 RNR",
+      "price": "84,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-v5-rnr-pour-rAnbXJ7w/HJ5228-001"
+    },
+    {
+      "id": 43,
+      "name": "Nike Pegasus 41",
+      "price": "149,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/chaussure-de-running-sur-route-pegasus-41-pour-Jdn3qq/IH4455-047"
+    },
+    {
+      "id": 44,
+      "name": "Nike Phantom 6 Low Elite",
+      "price": "269,99 €",
+      "marque_id": 1,
+      "category_id": 3,
+      "link": "https://www.nike.com/fr/t/crampons-de-foot-phantom-6-low-elite-pour-terrain-sec-aXDnEmsl/HJ2146-400"
+    },
+    {
+      "id": 45,
+      "name": "Nike Air Max 90",
+      "price": "159,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-air-max-90-pour-9gBgRX5l/IF0670-004"
+    },
+    {
+      "id": 46,
+      "name": "Nike Air Max 90 Essential+",
+      "price": "149,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussure-air-max-90-essential-pour-B9fcPXcl/IH2063-201"
+    },
+    {
+      "id": 47,
+      "name": "Nike Mercurial Superfly 10 Academy",
+      "price": "94,99 €",
+      "marque_id": 1,
+      "category_id": 2,
+      "link": "https://www.nike.com/fr/t/chaussure-de-foot-a-crampons-montante-multi-surfaces-mercurial-superfly-10-academy-u2h1JwR4/FQ1456-001"
+    },
+    {
+      "id": 48,
+      "name": "Nike SB Dunk Low Pro B",
+      "price": "119,99 €",
+      "marque_id": 1,
+      "category_id": 1,
+      "link": "https://www.nike.com/fr/t/chaussure-de-skate-sb-dunk-low-pro-b-ejd664Do/HJ0367-301"
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "url": null
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "url": null
+    },
+    {
+      "id": 3,
+      "product_id": 3,
+      "url": null
+    },
+    {
+      "id": 4,
+      "product_id": 4,
+      "url": null
+    },
+    {
+      "id": 5,
+      "product_id": 5,
+      "url": null
+    },
+    {
+      "id": 6,
+      "product_id": 6,
+      "url": null
+    },
+    {
+      "id": 7,
+      "product_id": 7,
+      "url": null
+    },
+    {
+      "id": 8,
+      "product_id": 8,
+      "url": null
+    },
+    {
+      "id": 9,
+      "product_id": 9,
+      "url": null
+    },
+    {
+      "id": 10,
+      "product_id": 10,
+      "url": null
+    },
+    {
+      "id": 11,
+      "product_id": 11,
+      "url": null
+    },
+    {
+      "id": 12,
+      "product_id": 12,
+      "url": null
+    },
+    {
+      "id": 13,
+      "product_id": 13,
+      "url": null
+    },
+    {
+      "id": 14,
+      "product_id": 14,
+      "url": null
+    },
+    {
+      "id": 15,
+      "product_id": 15,
+      "url": null
+    },
+    {
+      "id": 16,
+      "product_id": 16,
+      "url": null
+    },
+    {
+      "id": 17,
+      "product_id": 17,
+      "url": null
+    },
+    {
+      "id": 18,
+      "product_id": 18,
+      "url": null
+    },
+    {
+      "id": 19,
+      "product_id": 19,
+      "url": null
+    },
+    {
+      "id": 20,
+      "product_id": 20,
+      "url": null
+    },
+    {
+      "id": 21,
+      "product_id": 21,
+      "url": null
+    },
+    {
+      "id": 22,
+      "product_id": 22,
+      "url": null
+    },
+    {
+      "id": 23,
+      "product_id": 23,
+      "url": null
+    },
+    {
+      "id": 24,
+      "product_id": 24,
+      "url": null
+    },
+    {
+      "id": 25,
+      "product_id": 25,
+      "url": null
+    },
+    {
+      "id": 26,
+      "product_id": 26,
+      "url": null
+    },
+    {
+      "id": 27,
+      "product_id": 27,
+      "url": null
+    },
+    {
+      "id": 28,
+      "product_id": 28,
+      "url": null
+    },
+    {
+      "id": 29,
+      "product_id": 29,
+      "url": null
+    },
+    {
+      "id": 30,
+      "product_id": 30,
+      "url": null
+    },
+    {
+      "id": 31,
+      "product_id": 31,
+      "url": null
+    },
+    {
+      "id": 32,
+      "product_id": 32,
+      "url": null
+    },
+    {
+      "id": 33,
+      "product_id": 33,
+      "url": null
+    },
+    {
+      "id": 34,
+      "product_id": 34,
+      "url": null
+    },
+    {
+      "id": 35,
+      "product_id": 35,
+      "url": null
+    },
+    {
+      "id": 36,
+      "product_id": 36,
+      "url": null
+    },
+    {
+      "id": 37,
+      "product_id": 37,
+      "url": null
+    },
+    {
+      "id": 38,
+      "product_id": 38,
+      "url": null
+    },
+    {
+      "id": 39,
+      "product_id": 39,
+      "url": null
+    },
+    {
+      "id": 40,
+      "product_id": 40,
+      "url": null
+    },
+    {
+      "id": 41,
+      "product_id": 41,
+      "url": null
+    },
+    {
+      "id": 42,
+      "product_id": 42,
+      "url": null
+    },
+    {
+      "id": 43,
+      "product_id": 43,
+      "url": null
+    },
+    {
+      "id": 44,
+      "product_id": 44,
+      "url": null
+    },
+    {
+      "id": 45,
+      "product_id": 45,
+      "url": null
+    },
+    {
+      "id": 46,
+      "product_id": 46,
+      "url": null
+    },
+    {
+      "id": 47,
+      "product_id": 47,
+      "url": null
+    },
+    {
+      "id": 48,
+      "product_id": 48,
+      "url": null
+    }
+  ],
+  "variantes": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "color": "noir",
+      "size": 28,
+      "stock": 9
+    },
+    {
+      "id": 2,
+      "product_id": 1,
+      "color": "blanc",
+      "size": 28,
+      "stock": 6
+    },
+    {
+      "id": 3,
+      "product_id": 1,
+      "color": "rouge",
+      "size": 28,
+      "stock": 13
+    },
+    {
+      "id": 4,
+      "product_id": 1,
+      "color": "noir",
+      "size": 29,
+      "stock": 10
+    },
+    {
+      "id": 5,
+      "product_id": 1,
+      "color": "blanc",
+      "size": 29,
+      "stock": 16
+    },
+    {
+      "id": 6,
+      "product_id": 1,
+      "color": "rouge",
+      "size": 29,
+      "stock": 16
+    },
+    {
+      "id": 7,
+      "product_id": 1,
+      "color": "noir",
+      "size": 30,
+      "stock": 18
+    },
+    {
+      "id": 8,
+      "product_id": 1,
+      "color": "blanc",
+      "size": 30,
+      "stock": 12
+    },
+    {
+      "id": 9,
+      "product_id": 1,
+      "color": "rouge",
+      "size": 30,
+      "stock": 11
+    },
+    {
+      "id": 10,
+      "product_id": 1,
+      "color": "noir",
+      "size": 31,
+      "stock": 16
+    },
+    {
+      "id": 11,
+      "product_id": 1,
+      "color": "blanc",
+      "size": 31,
+      "stock": 13
+    },
+    {
+      "id": 12,
+      "product_id": 1,
+      "color": "rouge",
+      "size": 31,
+      "stock": 15
+    },
+    {
+      "id": 13,
+      "product_id": 1,
+      "color": "noir",
+      "size": 32,
+      "stock": 20
+    },
+    {
+      "id": 14,
+      "product_id": 1,
+      "color": "blanc",
+      "size": 32,
+      "stock": 15
+    },
+    {
+      "id": 15,
+      "product_id": 1,
+      "color": "rouge",
+      "size": 32,
+      "stock": 5
+    },
+    {
+      "id": 16,
+      "product_id": 1,
+      "color": "noir",
+      "size": 33,
+      "stock": 19
+    },
+    {
+      "id": 17,
+      "product_id": 1,
+      "color": "blanc",
+      "size": 33,
+      "stock": 19
+    },
+    {
+      "id": 18,
+      "product_id": 1,
+      "color": "rouge",
+      "size": 33,
+      "stock": 19
+    },
+    {
+      "id": 19,
+      "product_id": 1,
+      "color": "noir",
+      "size": 34,
+      "stock": 6
+    },
+    {
+      "id": 20,
+      "product_id": 1,
+      "color": "blanc",
+      "size": 34,
+      "stock": 9
+    },
+    {
+      "id": 21,
+      "product_id": 1,
+      "color": "rouge",
+      "size": 34,
+      "stock": 20
+    },
+    {
+      "id": 22,
+      "product_id": 1,
+      "color": "noir",
+      "size": 35,
+      "stock": 20
+    },
+    {
+      "id": 23,
+      "product_id": 1,
+      "color": "blanc",
+      "size": 35,
+      "stock": 20
+    },
+    {
+      "id": 24,
+      "product_id": 1,
+      "color": "rouge",
+      "size": 35,
+      "stock": 10
+    },
+    {
+      "id": 25,
+      "product_id": 2,
+      "color": "noir",
+      "size": 36,
+      "stock": 20
+    },
+    {
+      "id": 26,
+      "product_id": 2,
+      "color": "blanc",
+      "size": 36,
+      "stock": 13
+    },
+    {
+      "id": 27,
+      "product_id": 2,
+      "color": "rouge",
+      "size": 36,
+      "stock": 9
+    },
+    {
+      "id": 28,
+      "product_id": 2,
+      "color": "noir",
+      "size": 37,
+      "stock": 7
+    },
+    {
+      "id": 29,
+      "product_id": 2,
+      "color": "blanc",
+      "size": 37,
+      "stock": 20
+    },
+    {
+      "id": 30,
+      "product_id": 2,
+      "color": "rouge",
+      "size": 37,
+      "stock": 11
+    },
+    {
+      "id": 31,
+      "product_id": 2,
+      "color": "noir",
+      "size": 38,
+      "stock": 20
+    },
+    {
+      "id": 32,
+      "product_id": 2,
+      "color": "blanc",
+      "size": 38,
+      "stock": 8
+    },
+    {
+      "id": 33,
+      "product_id": 2,
+      "color": "rouge",
+      "size": 38,
+      "stock": 16
+    },
+    {
+      "id": 34,
+      "product_id": 2,
+      "color": "noir",
+      "size": 39,
+      "stock": 13
+    },
+    {
+      "id": 35,
+      "product_id": 2,
+      "color": "blanc",
+      "size": 39,
+      "stock": 16
+    },
+    {
+      "id": 36,
+      "product_id": 2,
+      "color": "rouge",
+      "size": 39,
+      "stock": 11
+    },
+    {
+      "id": 37,
+      "product_id": 2,
+      "color": "noir",
+      "size": 40,
+      "stock": 16
+    },
+    {
+      "id": 38,
+      "product_id": 2,
+      "color": "blanc",
+      "size": 40,
+      "stock": 18
+    },
+    {
+      "id": 39,
+      "product_id": 2,
+      "color": "rouge",
+      "size": 40,
+      "stock": 6
+    },
+    {
+      "id": 40,
+      "product_id": 2,
+      "color": "noir",
+      "size": 41,
+      "stock": 15
+    },
+    {
+      "id": 41,
+      "product_id": 2,
+      "color": "blanc",
+      "size": 41,
+      "stock": 14
+    },
+    {
+      "id": 42,
+      "product_id": 2,
+      "color": "rouge",
+      "size": 41,
+      "stock": 11
+    },
+    {
+      "id": 43,
+      "product_id": 2,
+      "color": "noir",
+      "size": 42,
+      "stock": 15
+    },
+    {
+      "id": 44,
+      "product_id": 2,
+      "color": "blanc",
+      "size": 42,
+      "stock": 16
+    },
+    {
+      "id": 45,
+      "product_id": 2,
+      "color": "rouge",
+      "size": 42,
+      "stock": 13
+    },
+    {
+      "id": 46,
+      "product_id": 3,
+      "color": "noir",
+      "size": 28,
+      "stock": 15
+    },
+    {
+      "id": 47,
+      "product_id": 3,
+      "color": "blanc",
+      "size": 28,
+      "stock": 5
+    },
+    {
+      "id": 48,
+      "product_id": 3,
+      "color": "rouge",
+      "size": 28,
+      "stock": 16
+    },
+    {
+      "id": 49,
+      "product_id": 3,
+      "color": "noir",
+      "size": 29,
+      "stock": 6
+    },
+    {
+      "id": 50,
+      "product_id": 3,
+      "color": "blanc",
+      "size": 29,
+      "stock": 16
+    },
+    {
+      "id": 51,
+      "product_id": 3,
+      "color": "rouge",
+      "size": 29,
+      "stock": 11
+    },
+    {
+      "id": 52,
+      "product_id": 3,
+      "color": "noir",
+      "size": 30,
+      "stock": 9
+    },
+    {
+      "id": 53,
+      "product_id": 3,
+      "color": "blanc",
+      "size": 30,
+      "stock": 7
+    },
+    {
+      "id": 54,
+      "product_id": 3,
+      "color": "rouge",
+      "size": 30,
+      "stock": 19
+    },
+    {
+      "id": 55,
+      "product_id": 3,
+      "color": "noir",
+      "size": 31,
+      "stock": 7
+    },
+    {
+      "id": 56,
+      "product_id": 3,
+      "color": "blanc",
+      "size": 31,
+      "stock": 13
+    },
+    {
+      "id": 57,
+      "product_id": 3,
+      "color": "rouge",
+      "size": 31,
+      "stock": 20
+    },
+    {
+      "id": 58,
+      "product_id": 3,
+      "color": "noir",
+      "size": 32,
+      "stock": 11
+    },
+    {
+      "id": 59,
+      "product_id": 3,
+      "color": "blanc",
+      "size": 32,
+      "stock": 18
+    },
+    {
+      "id": 60,
+      "product_id": 3,
+      "color": "rouge",
+      "size": 32,
+      "stock": 6
+    },
+    {
+      "id": 61,
+      "product_id": 3,
+      "color": "noir",
+      "size": 33,
+      "stock": 10
+    },
+    {
+      "id": 62,
+      "product_id": 3,
+      "color": "blanc",
+      "size": 33,
+      "stock": 14
+    },
+    {
+      "id": 63,
+      "product_id": 3,
+      "color": "rouge",
+      "size": 33,
+      "stock": 13
+    },
+    {
+      "id": 64,
+      "product_id": 3,
+      "color": "noir",
+      "size": 34,
+      "stock": 11
+    },
+    {
+      "id": 65,
+      "product_id": 3,
+      "color": "blanc",
+      "size": 34,
+      "stock": 8
+    },
+    {
+      "id": 66,
+      "product_id": 3,
+      "color": "rouge",
+      "size": 34,
+      "stock": 6
+    },
+    {
+      "id": 67,
+      "product_id": 3,
+      "color": "noir",
+      "size": 35,
+      "stock": 6
+    },
+    {
+      "id": 68,
+      "product_id": 3,
+      "color": "blanc",
+      "size": 35,
+      "stock": 19
+    },
+    {
+      "id": 69,
+      "product_id": 3,
+      "color": "rouge",
+      "size": 35,
+      "stock": 14
+    },
+    {
+      "id": 70,
+      "product_id": 4,
+      "color": "noir",
+      "size": 40,
+      "stock": 10
+    },
+    {
+      "id": 71,
+      "product_id": 4,
+      "color": "blanc",
+      "size": 40,
+      "stock": 11
+    },
+    {
+      "id": 72,
+      "product_id": 4,
+      "color": "rouge",
+      "size": 40,
+      "stock": 11
+    },
+    {
+      "id": 73,
+      "product_id": 4,
+      "color": "noir",
+      "size": 41,
+      "stock": 13
+    },
+    {
+      "id": 74,
+      "product_id": 4,
+      "color": "blanc",
+      "size": 41,
+      "stock": 9
+    },
+    {
+      "id": 75,
+      "product_id": 4,
+      "color": "rouge",
+      "size": 41,
+      "stock": 9
+    },
+    {
+      "id": 76,
+      "product_id": 4,
+      "color": "noir",
+      "size": 42,
+      "stock": 20
+    },
+    {
+      "id": 77,
+      "product_id": 4,
+      "color": "blanc",
+      "size": 42,
+      "stock": 8
+    },
+    {
+      "id": 78,
+      "product_id": 4,
+      "color": "rouge",
+      "size": 42,
+      "stock": 8
+    },
+    {
+      "id": 79,
+      "product_id": 4,
+      "color": "noir",
+      "size": 43,
+      "stock": 13
+    },
+    {
+      "id": 80,
+      "product_id": 4,
+      "color": "blanc",
+      "size": 43,
+      "stock": 17
+    },
+    {
+      "id": 81,
+      "product_id": 4,
+      "color": "rouge",
+      "size": 43,
+      "stock": 20
+    },
+    {
+      "id": 82,
+      "product_id": 4,
+      "color": "noir",
+      "size": 44,
+      "stock": 19
+    },
+    {
+      "id": 83,
+      "product_id": 4,
+      "color": "blanc",
+      "size": 44,
+      "stock": 20
+    },
+    {
+      "id": 84,
+      "product_id": 4,
+      "color": "rouge",
+      "size": 44,
+      "stock": 16
+    },
+    {
+      "id": 85,
+      "product_id": 4,
+      "color": "noir",
+      "size": 45,
+      "stock": 9
+    },
+    {
+      "id": 86,
+      "product_id": 4,
+      "color": "blanc",
+      "size": 45,
+      "stock": 20
+    },
+    {
+      "id": 87,
+      "product_id": 4,
+      "color": "rouge",
+      "size": 45,
+      "stock": 15
+    },
+    {
+      "id": 88,
+      "product_id": 4,
+      "color": "noir",
+      "size": 46,
+      "stock": 18
+    },
+    {
+      "id": 89,
+      "product_id": 4,
+      "color": "blanc",
+      "size": 46,
+      "stock": 12
+    },
+    {
+      "id": 90,
+      "product_id": 4,
+      "color": "rouge",
+      "size": 46,
+      "stock": 11
+    },
+    {
+      "id": 91,
+      "product_id": 5,
+      "color": "noir",
+      "size": 28,
+      "stock": 20
+    },
+    {
+      "id": 92,
+      "product_id": 5,
+      "color": "blanc",
+      "size": 28,
+      "stock": 13
+    },
+    {
+      "id": 93,
+      "product_id": 5,
+      "color": "rouge",
+      "size": 28,
+      "stock": 13
+    },
+    {
+      "id": 94,
+      "product_id": 5,
+      "color": "noir",
+      "size": 29,
+      "stock": 19
+    },
+    {
+      "id": 95,
+      "product_id": 5,
+      "color": "blanc",
+      "size": 29,
+      "stock": 8
+    },
+    {
+      "id": 96,
+      "product_id": 5,
+      "color": "rouge",
+      "size": 29,
+      "stock": 8
+    },
+    {
+      "id": 97,
+      "product_id": 5,
+      "color": "noir",
+      "size": 30,
+      "stock": 9
+    },
+    {
+      "id": 98,
+      "product_id": 5,
+      "color": "blanc",
+      "size": 30,
+      "stock": 11
+    },
+    {
+      "id": 99,
+      "product_id": 5,
+      "color": "rouge",
+      "size": 30,
+      "stock": 16
+    },
+    {
+      "id": 100,
+      "product_id": 5,
+      "color": "noir",
+      "size": 31,
+      "stock": 17
+    },
+    {
+      "id": 101,
+      "product_id": 5,
+      "color": "blanc",
+      "size": 31,
+      "stock": 12
+    },
+    {
+      "id": 102,
+      "product_id": 5,
+      "color": "rouge",
+      "size": 31,
+      "stock": 10
+    },
+    {
+      "id": 103,
+      "product_id": 5,
+      "color": "noir",
+      "size": 32,
+      "stock": 5
+    },
+    {
+      "id": 104,
+      "product_id": 5,
+      "color": "blanc",
+      "size": 32,
+      "stock": 11
+    },
+    {
+      "id": 105,
+      "product_id": 5,
+      "color": "rouge",
+      "size": 32,
+      "stock": 7
+    },
+    {
+      "id": 106,
+      "product_id": 5,
+      "color": "noir",
+      "size": 33,
+      "stock": 14
+    },
+    {
+      "id": 107,
+      "product_id": 5,
+      "color": "blanc",
+      "size": 33,
+      "stock": 9
+    },
+    {
+      "id": 108,
+      "product_id": 5,
+      "color": "rouge",
+      "size": 33,
+      "stock": 17
+    },
+    {
+      "id": 109,
+      "product_id": 5,
+      "color": "noir",
+      "size": 34,
+      "stock": 11
+    },
+    {
+      "id": 110,
+      "product_id": 5,
+      "color": "blanc",
+      "size": 34,
+      "stock": 9
+    },
+    {
+      "id": 111,
+      "product_id": 5,
+      "color": "rouge",
+      "size": 34,
+      "stock": 10
+    },
+    {
+      "id": 112,
+      "product_id": 5,
+      "color": "noir",
+      "size": 35,
+      "stock": 5
+    },
+    {
+      "id": 113,
+      "product_id": 5,
+      "color": "blanc",
+      "size": 35,
+      "stock": 16
+    },
+    {
+      "id": 114,
+      "product_id": 5,
+      "color": "rouge",
+      "size": 35,
+      "stock": 20
+    },
+    {
+      "id": 115,
+      "product_id": 6,
+      "color": "noir",
+      "size": 28,
+      "stock": 18
+    },
+    {
+      "id": 116,
+      "product_id": 6,
+      "color": "blanc",
+      "size": 28,
+      "stock": 9
+    },
+    {
+      "id": 117,
+      "product_id": 6,
+      "color": "rouge",
+      "size": 28,
+      "stock": 15
+    },
+    {
+      "id": 118,
+      "product_id": 6,
+      "color": "noir",
+      "size": 29,
+      "stock": 18
+    },
+    {
+      "id": 119,
+      "product_id": 6,
+      "color": "blanc",
+      "size": 29,
+      "stock": 6
+    },
+    {
+      "id": 120,
+      "product_id": 6,
+      "color": "rouge",
+      "size": 29,
+      "stock": 19
+    },
+    {
+      "id": 121,
+      "product_id": 6,
+      "color": "noir",
+      "size": 30,
+      "stock": 18
+    },
+    {
+      "id": 122,
+      "product_id": 6,
+      "color": "blanc",
+      "size": 30,
+      "stock": 20
+    },
+    {
+      "id": 123,
+      "product_id": 6,
+      "color": "rouge",
+      "size": 30,
+      "stock": 20
+    },
+    {
+      "id": 124,
+      "product_id": 6,
+      "color": "noir",
+      "size": 31,
+      "stock": 20
+    },
+    {
+      "id": 125,
+      "product_id": 6,
+      "color": "blanc",
+      "size": 31,
+      "stock": 15
+    },
+    {
+      "id": 126,
+      "product_id": 6,
+      "color": "rouge",
+      "size": 31,
+      "stock": 7
+    },
+    {
+      "id": 127,
+      "product_id": 6,
+      "color": "noir",
+      "size": 32,
+      "stock": 8
+    },
+    {
+      "id": 128,
+      "product_id": 6,
+      "color": "blanc",
+      "size": 32,
+      "stock": 13
+    },
+    {
+      "id": 129,
+      "product_id": 6,
+      "color": "rouge",
+      "size": 32,
+      "stock": 8
+    },
+    {
+      "id": 130,
+      "product_id": 6,
+      "color": "noir",
+      "size": 33,
+      "stock": 15
+    },
+    {
+      "id": 131,
+      "product_id": 6,
+      "color": "blanc",
+      "size": 33,
+      "stock": 9
+    },
+    {
+      "id": 132,
+      "product_id": 6,
+      "color": "rouge",
+      "size": 33,
+      "stock": 7
+    },
+    {
+      "id": 133,
+      "product_id": 6,
+      "color": "noir",
+      "size": 34,
+      "stock": 9
+    },
+    {
+      "id": 134,
+      "product_id": 6,
+      "color": "blanc",
+      "size": 34,
+      "stock": 9
+    },
+    {
+      "id": 135,
+      "product_id": 6,
+      "color": "rouge",
+      "size": 34,
+      "stock": 7
+    },
+    {
+      "id": 136,
+      "product_id": 6,
+      "color": "noir",
+      "size": 35,
+      "stock": 10
+    },
+    {
+      "id": 137,
+      "product_id": 6,
+      "color": "blanc",
+      "size": 35,
+      "stock": 19
+    },
+    {
+      "id": 138,
+      "product_id": 6,
+      "color": "rouge",
+      "size": 35,
+      "stock": 8
+    },
+    {
+      "id": 139,
+      "product_id": 7,
+      "color": "noir",
+      "size": 40,
+      "stock": 20
+    },
+    {
+      "id": 140,
+      "product_id": 7,
+      "color": "blanc",
+      "size": 40,
+      "stock": 12
+    },
+    {
+      "id": 141,
+      "product_id": 7,
+      "color": "rouge",
+      "size": 40,
+      "stock": 9
+    },
+    {
+      "id": 142,
+      "product_id": 7,
+      "color": "noir",
+      "size": 41,
+      "stock": 18
+    },
+    {
+      "id": 143,
+      "product_id": 7,
+      "color": "blanc",
+      "size": 41,
+      "stock": 7
+    },
+    {
+      "id": 144,
+      "product_id": 7,
+      "color": "rouge",
+      "size": 41,
+      "stock": 19
+    },
+    {
+      "id": 145,
+      "product_id": 7,
+      "color": "noir",
+      "size": 42,
+      "stock": 18
+    },
+    {
+      "id": 146,
+      "product_id": 7,
+      "color": "blanc",
+      "size": 42,
+      "stock": 7
+    },
+    {
+      "id": 147,
+      "product_id": 7,
+      "color": "rouge",
+      "size": 42,
+      "stock": 17
+    },
+    {
+      "id": 148,
+      "product_id": 7,
+      "color": "noir",
+      "size": 43,
+      "stock": 15
+    },
+    {
+      "id": 149,
+      "product_id": 7,
+      "color": "blanc",
+      "size": 43,
+      "stock": 17
+    },
+    {
+      "id": 150,
+      "product_id": 7,
+      "color": "rouge",
+      "size": 43,
+      "stock": 19
+    },
+    {
+      "id": 151,
+      "product_id": 7,
+      "color": "noir",
+      "size": 44,
+      "stock": 14
+    },
+    {
+      "id": 152,
+      "product_id": 7,
+      "color": "blanc",
+      "size": 44,
+      "stock": 5
+    },
+    {
+      "id": 153,
+      "product_id": 7,
+      "color": "rouge",
+      "size": 44,
+      "stock": 6
+    },
+    {
+      "id": 154,
+      "product_id": 7,
+      "color": "noir",
+      "size": 45,
+      "stock": 11
+    },
+    {
+      "id": 155,
+      "product_id": 7,
+      "color": "blanc",
+      "size": 45,
+      "stock": 18
+    },
+    {
+      "id": 156,
+      "product_id": 7,
+      "color": "rouge",
+      "size": 45,
+      "stock": 13
+    },
+    {
+      "id": 157,
+      "product_id": 7,
+      "color": "noir",
+      "size": 46,
+      "stock": 15
+    },
+    {
+      "id": 158,
+      "product_id": 7,
+      "color": "blanc",
+      "size": 46,
+      "stock": 12
+    },
+    {
+      "id": 159,
+      "product_id": 7,
+      "color": "rouge",
+      "size": 46,
+      "stock": 8
+    },
+    {
+      "id": 160,
+      "product_id": 8,
+      "color": "noir",
+      "size": 36,
+      "stock": 19
+    },
+    {
+      "id": 161,
+      "product_id": 8,
+      "color": "blanc",
+      "size": 36,
+      "stock": 5
+    },
+    {
+      "id": 162,
+      "product_id": 8,
+      "color": "rouge",
+      "size": 36,
+      "stock": 9
+    },
+    {
+      "id": 163,
+      "product_id": 8,
+      "color": "noir",
+      "size": 37,
+      "stock": 12
+    },
+    {
+      "id": 164,
+      "product_id": 8,
+      "color": "blanc",
+      "size": 37,
+      "stock": 18
+    },
+    {
+      "id": 165,
+      "product_id": 8,
+      "color": "rouge",
+      "size": 37,
+      "stock": 7
+    },
+    {
+      "id": 166,
+      "product_id": 8,
+      "color": "noir",
+      "size": 38,
+      "stock": 15
+    },
+    {
+      "id": 167,
+      "product_id": 8,
+      "color": "blanc",
+      "size": 38,
+      "stock": 7
+    },
+    {
+      "id": 168,
+      "product_id": 8,
+      "color": "rouge",
+      "size": 38,
+      "stock": 8
+    },
+    {
+      "id": 169,
+      "product_id": 8,
+      "color": "noir",
+      "size": 39,
+      "stock": 5
+    },
+    {
+      "id": 170,
+      "product_id": 8,
+      "color": "blanc",
+      "size": 39,
+      "stock": 7
+    },
+    {
+      "id": 171,
+      "product_id": 8,
+      "color": "rouge",
+      "size": 39,
+      "stock": 10
+    },
+    {
+      "id": 172,
+      "product_id": 8,
+      "color": "noir",
+      "size": 40,
+      "stock": 5
+    },
+    {
+      "id": 173,
+      "product_id": 8,
+      "color": "blanc",
+      "size": 40,
+      "stock": 13
+    },
+    {
+      "id": 174,
+      "product_id": 8,
+      "color": "rouge",
+      "size": 40,
+      "stock": 7
+    },
+    {
+      "id": 175,
+      "product_id": 8,
+      "color": "noir",
+      "size": 41,
+      "stock": 16
+    },
+    {
+      "id": 176,
+      "product_id": 8,
+      "color": "blanc",
+      "size": 41,
+      "stock": 10
+    },
+    {
+      "id": 177,
+      "product_id": 8,
+      "color": "rouge",
+      "size": 41,
+      "stock": 19
+    },
+    {
+      "id": 178,
+      "product_id": 8,
+      "color": "noir",
+      "size": 42,
+      "stock": 10
+    },
+    {
+      "id": 179,
+      "product_id": 8,
+      "color": "blanc",
+      "size": 42,
+      "stock": 20
+    },
+    {
+      "id": 180,
+      "product_id": 8,
+      "color": "rouge",
+      "size": 42,
+      "stock": 19
+    },
+    {
+      "id": 181,
+      "product_id": 9,
+      "color": "noir",
+      "size": 28,
+      "stock": 13
+    },
+    {
+      "id": 182,
+      "product_id": 9,
+      "color": "blanc",
+      "size": 28,
+      "stock": 5
+    },
+    {
+      "id": 183,
+      "product_id": 9,
+      "color": "rouge",
+      "size": 28,
+      "stock": 10
+    },
+    {
+      "id": 184,
+      "product_id": 9,
+      "color": "noir",
+      "size": 29,
+      "stock": 12
+    },
+    {
+      "id": 185,
+      "product_id": 9,
+      "color": "blanc",
+      "size": 29,
+      "stock": 10
+    },
+    {
+      "id": 186,
+      "product_id": 9,
+      "color": "rouge",
+      "size": 29,
+      "stock": 9
+    },
+    {
+      "id": 187,
+      "product_id": 9,
+      "color": "noir",
+      "size": 30,
+      "stock": 20
+    },
+    {
+      "id": 188,
+      "product_id": 9,
+      "color": "blanc",
+      "size": 30,
+      "stock": 15
+    },
+    {
+      "id": 189,
+      "product_id": 9,
+      "color": "rouge",
+      "size": 30,
+      "stock": 10
+    },
+    {
+      "id": 190,
+      "product_id": 9,
+      "color": "noir",
+      "size": 31,
+      "stock": 9
+    },
+    {
+      "id": 191,
+      "product_id": 9,
+      "color": "blanc",
+      "size": 31,
+      "stock": 10
+    },
+    {
+      "id": 192,
+      "product_id": 9,
+      "color": "rouge",
+      "size": 31,
+      "stock": 19
+    },
+    {
+      "id": 193,
+      "product_id": 9,
+      "color": "noir",
+      "size": 32,
+      "stock": 15
+    },
+    {
+      "id": 194,
+      "product_id": 9,
+      "color": "blanc",
+      "size": 32,
+      "stock": 13
+    },
+    {
+      "id": 195,
+      "product_id": 9,
+      "color": "rouge",
+      "size": 32,
+      "stock": 11
+    },
+    {
+      "id": 196,
+      "product_id": 9,
+      "color": "noir",
+      "size": 33,
+      "stock": 12
+    },
+    {
+      "id": 197,
+      "product_id": 9,
+      "color": "blanc",
+      "size": 33,
+      "stock": 15
+    },
+    {
+      "id": 198,
+      "product_id": 9,
+      "color": "rouge",
+      "size": 33,
+      "stock": 19
+    },
+    {
+      "id": 199,
+      "product_id": 9,
+      "color": "noir",
+      "size": 34,
+      "stock": 16
+    },
+    {
+      "id": 200,
+      "product_id": 9,
+      "color": "blanc",
+      "size": 34,
+      "stock": 16
+    },
+    {
+      "id": 201,
+      "product_id": 9,
+      "color": "rouge",
+      "size": 34,
+      "stock": 19
+    },
+    {
+      "id": 202,
+      "product_id": 9,
+      "color": "noir",
+      "size": 35,
+      "stock": 20
+    },
+    {
+      "id": 203,
+      "product_id": 9,
+      "color": "blanc",
+      "size": 35,
+      "stock": 18
+    },
+    {
+      "id": 204,
+      "product_id": 9,
+      "color": "rouge",
+      "size": 35,
+      "stock": 8
+    },
+    {
+      "id": 205,
+      "product_id": 10,
+      "color": "noir",
+      "size": 28,
+      "stock": 5
+    },
+    {
+      "id": 206,
+      "product_id": 10,
+      "color": "blanc",
+      "size": 28,
+      "stock": 18
+    },
+    {
+      "id": 207,
+      "product_id": 10,
+      "color": "rouge",
+      "size": 28,
+      "stock": 17
+    },
+    {
+      "id": 208,
+      "product_id": 10,
+      "color": "noir",
+      "size": 29,
+      "stock": 7
+    },
+    {
+      "id": 209,
+      "product_id": 10,
+      "color": "blanc",
+      "size": 29,
+      "stock": 16
+    },
+    {
+      "id": 210,
+      "product_id": 10,
+      "color": "rouge",
+      "size": 29,
+      "stock": 15
+    },
+    {
+      "id": 211,
+      "product_id": 10,
+      "color": "noir",
+      "size": 30,
+      "stock": 9
+    },
+    {
+      "id": 212,
+      "product_id": 10,
+      "color": "blanc",
+      "size": 30,
+      "stock": 5
+    },
+    {
+      "id": 213,
+      "product_id": 10,
+      "color": "rouge",
+      "size": 30,
+      "stock": 15
+    },
+    {
+      "id": 214,
+      "product_id": 10,
+      "color": "noir",
+      "size": 31,
+      "stock": 13
+    },
+    {
+      "id": 215,
+      "product_id": 10,
+      "color": "blanc",
+      "size": 31,
+      "stock": 14
+    },
+    {
+      "id": 216,
+      "product_id": 10,
+      "color": "rouge",
+      "size": 31,
+      "stock": 13
+    },
+    {
+      "id": 217,
+      "product_id": 10,
+      "color": "noir",
+      "size": 32,
+      "stock": 6
+    },
+    {
+      "id": 218,
+      "product_id": 10,
+      "color": "blanc",
+      "size": 32,
+      "stock": 11
+    },
+    {
+      "id": 219,
+      "product_id": 10,
+      "color": "rouge",
+      "size": 32,
+      "stock": 5
+    },
+    {
+      "id": 220,
+      "product_id": 10,
+      "color": "noir",
+      "size": 33,
+      "stock": 16
+    },
+    {
+      "id": 221,
+      "product_id": 10,
+      "color": "blanc",
+      "size": 33,
+      "stock": 16
+    },
+    {
+      "id": 222,
+      "product_id": 10,
+      "color": "rouge",
+      "size": 33,
+      "stock": 16
+    },
+    {
+      "id": 223,
+      "product_id": 10,
+      "color": "noir",
+      "size": 34,
+      "stock": 7
+    },
+    {
+      "id": 224,
+      "product_id": 10,
+      "color": "blanc",
+      "size": 34,
+      "stock": 17
+    },
+    {
+      "id": 225,
+      "product_id": 10,
+      "color": "rouge",
+      "size": 34,
+      "stock": 20
+    },
+    {
+      "id": 226,
+      "product_id": 10,
+      "color": "noir",
+      "size": 35,
+      "stock": 11
+    },
+    {
+      "id": 227,
+      "product_id": 10,
+      "color": "blanc",
+      "size": 35,
+      "stock": 10
+    },
+    {
+      "id": 228,
+      "product_id": 10,
+      "color": "rouge",
+      "size": 35,
+      "stock": 6
+    },
+    {
+      "id": 229,
+      "product_id": 11,
+      "color": "noir",
+      "size": 28,
+      "stock": 19
+    },
+    {
+      "id": 230,
+      "product_id": 11,
+      "color": "blanc",
+      "size": 28,
+      "stock": 9
+    },
+    {
+      "id": 231,
+      "product_id": 11,
+      "color": "rouge",
+      "size": 28,
+      "stock": 18
+    },
+    {
+      "id": 232,
+      "product_id": 11,
+      "color": "noir",
+      "size": 29,
+      "stock": 8
+    },
+    {
+      "id": 233,
+      "product_id": 11,
+      "color": "blanc",
+      "size": 29,
+      "stock": 20
+    },
+    {
+      "id": 234,
+      "product_id": 11,
+      "color": "rouge",
+      "size": 29,
+      "stock": 19
+    },
+    {
+      "id": 235,
+      "product_id": 11,
+      "color": "noir",
+      "size": 30,
+      "stock": 15
+    },
+    {
+      "id": 236,
+      "product_id": 11,
+      "color": "blanc",
+      "size": 30,
+      "stock": 10
+    },
+    {
+      "id": 237,
+      "product_id": 11,
+      "color": "rouge",
+      "size": 30,
+      "stock": 18
+    },
+    {
+      "id": 238,
+      "product_id": 11,
+      "color": "noir",
+      "size": 31,
+      "stock": 17
+    },
+    {
+      "id": 239,
+      "product_id": 11,
+      "color": "blanc",
+      "size": 31,
+      "stock": 8
+    },
+    {
+      "id": 240,
+      "product_id": 11,
+      "color": "rouge",
+      "size": 31,
+      "stock": 5
+    },
+    {
+      "id": 241,
+      "product_id": 11,
+      "color": "noir",
+      "size": 32,
+      "stock": 14
+    },
+    {
+      "id": 242,
+      "product_id": 11,
+      "color": "blanc",
+      "size": 32,
+      "stock": 13
+    },
+    {
+      "id": 243,
+      "product_id": 11,
+      "color": "rouge",
+      "size": 32,
+      "stock": 9
+    },
+    {
+      "id": 244,
+      "product_id": 11,
+      "color": "noir",
+      "size": 33,
+      "stock": 7
+    },
+    {
+      "id": 245,
+      "product_id": 11,
+      "color": "blanc",
+      "size": 33,
+      "stock": 15
+    },
+    {
+      "id": 246,
+      "product_id": 11,
+      "color": "rouge",
+      "size": 33,
+      "stock": 17
+    },
+    {
+      "id": 247,
+      "product_id": 11,
+      "color": "noir",
+      "size": 34,
+      "stock": 14
+    },
+    {
+      "id": 248,
+      "product_id": 11,
+      "color": "blanc",
+      "size": 34,
+      "stock": 12
+    },
+    {
+      "id": 249,
+      "product_id": 11,
+      "color": "rouge",
+      "size": 34,
+      "stock": 18
+    },
+    {
+      "id": 250,
+      "product_id": 11,
+      "color": "noir",
+      "size": 35,
+      "stock": 20
+    },
+    {
+      "id": 251,
+      "product_id": 11,
+      "color": "blanc",
+      "size": 35,
+      "stock": 19
+    },
+    {
+      "id": 252,
+      "product_id": 11,
+      "color": "rouge",
+      "size": 35,
+      "stock": 10
+    },
+    {
+      "id": 253,
+      "product_id": 12,
+      "color": "noir",
+      "size": 40,
+      "stock": 11
+    },
+    {
+      "id": 254,
+      "product_id": 12,
+      "color": "blanc",
+      "size": 40,
+      "stock": 19
+    },
+    {
+      "id": 255,
+      "product_id": 12,
+      "color": "rouge",
+      "size": 40,
+      "stock": 8
+    },
+    {
+      "id": 256,
+      "product_id": 12,
+      "color": "noir",
+      "size": 41,
+      "stock": 11
+    },
+    {
+      "id": 257,
+      "product_id": 12,
+      "color": "blanc",
+      "size": 41,
+      "stock": 13
+    },
+    {
+      "id": 258,
+      "product_id": 12,
+      "color": "rouge",
+      "size": 41,
+      "stock": 16
+    },
+    {
+      "id": 259,
+      "product_id": 12,
+      "color": "noir",
+      "size": 42,
+      "stock": 10
+    },
+    {
+      "id": 260,
+      "product_id": 12,
+      "color": "blanc",
+      "size": 42,
+      "stock": 11
+    },
+    {
+      "id": 261,
+      "product_id": 12,
+      "color": "rouge",
+      "size": 42,
+      "stock": 11
+    },
+    {
+      "id": 262,
+      "product_id": 12,
+      "color": "noir",
+      "size": 43,
+      "stock": 16
+    },
+    {
+      "id": 263,
+      "product_id": 12,
+      "color": "blanc",
+      "size": 43,
+      "stock": 9
+    },
+    {
+      "id": 264,
+      "product_id": 12,
+      "color": "rouge",
+      "size": 43,
+      "stock": 20
+    },
+    {
+      "id": 265,
+      "product_id": 12,
+      "color": "noir",
+      "size": 44,
+      "stock": 15
+    },
+    {
+      "id": 266,
+      "product_id": 12,
+      "color": "blanc",
+      "size": 44,
+      "stock": 14
+    },
+    {
+      "id": 267,
+      "product_id": 12,
+      "color": "rouge",
+      "size": 44,
+      "stock": 10
+    },
+    {
+      "id": 268,
+      "product_id": 12,
+      "color": "noir",
+      "size": 45,
+      "stock": 16
+    },
+    {
+      "id": 269,
+      "product_id": 12,
+      "color": "blanc",
+      "size": 45,
+      "stock": 20
+    },
+    {
+      "id": 270,
+      "product_id": 12,
+      "color": "rouge",
+      "size": 45,
+      "stock": 9
+    },
+    {
+      "id": 271,
+      "product_id": 12,
+      "color": "noir",
+      "size": 46,
+      "stock": 8
+    },
+    {
+      "id": 272,
+      "product_id": 12,
+      "color": "blanc",
+      "size": 46,
+      "stock": 16
+    },
+    {
+      "id": 273,
+      "product_id": 12,
+      "color": "rouge",
+      "size": 46,
+      "stock": 8
+    },
+    {
+      "id": 274,
+      "product_id": 13,
+      "color": "noir",
+      "size": 28,
+      "stock": 6
+    },
+    {
+      "id": 275,
+      "product_id": 13,
+      "color": "blanc",
+      "size": 28,
+      "stock": 6
+    },
+    {
+      "id": 276,
+      "product_id": 13,
+      "color": "rouge",
+      "size": 28,
+      "stock": 12
+    },
+    {
+      "id": 277,
+      "product_id": 13,
+      "color": "noir",
+      "size": 29,
+      "stock": 5
+    },
+    {
+      "id": 278,
+      "product_id": 13,
+      "color": "blanc",
+      "size": 29,
+      "stock": 14
+    },
+    {
+      "id": 279,
+      "product_id": 13,
+      "color": "rouge",
+      "size": 29,
+      "stock": 10
+    },
+    {
+      "id": 280,
+      "product_id": 13,
+      "color": "noir",
+      "size": 30,
+      "stock": 18
+    },
+    {
+      "id": 281,
+      "product_id": 13,
+      "color": "blanc",
+      "size": 30,
+      "stock": 20
+    },
+    {
+      "id": 282,
+      "product_id": 13,
+      "color": "rouge",
+      "size": 30,
+      "stock": 16
+    },
+    {
+      "id": 283,
+      "product_id": 13,
+      "color": "noir",
+      "size": 31,
+      "stock": 20
+    },
+    {
+      "id": 284,
+      "product_id": 13,
+      "color": "blanc",
+      "size": 31,
+      "stock": 17
+    },
+    {
+      "id": 285,
+      "product_id": 13,
+      "color": "rouge",
+      "size": 31,
+      "stock": 20
+    },
+    {
+      "id": 286,
+      "product_id": 13,
+      "color": "noir",
+      "size": 32,
+      "stock": 10
+    },
+    {
+      "id": 287,
+      "product_id": 13,
+      "color": "blanc",
+      "size": 32,
+      "stock": 8
+    },
+    {
+      "id": 288,
+      "product_id": 13,
+      "color": "rouge",
+      "size": 32,
+      "stock": 11
+    },
+    {
+      "id": 289,
+      "product_id": 13,
+      "color": "noir",
+      "size": 33,
+      "stock": 18
+    },
+    {
+      "id": 290,
+      "product_id": 13,
+      "color": "blanc",
+      "size": 33,
+      "stock": 18
+    },
+    {
+      "id": 291,
+      "product_id": 13,
+      "color": "rouge",
+      "size": 33,
+      "stock": 7
+    },
+    {
+      "id": 292,
+      "product_id": 13,
+      "color": "noir",
+      "size": 34,
+      "stock": 11
+    },
+    {
+      "id": 293,
+      "product_id": 13,
+      "color": "blanc",
+      "size": 34,
+      "stock": 14
+    },
+    {
+      "id": 294,
+      "product_id": 13,
+      "color": "rouge",
+      "size": 34,
+      "stock": 13
+    },
+    {
+      "id": 295,
+      "product_id": 13,
+      "color": "noir",
+      "size": 35,
+      "stock": 19
+    },
+    {
+      "id": 296,
+      "product_id": 13,
+      "color": "blanc",
+      "size": 35,
+      "stock": 15
+    },
+    {
+      "id": 297,
+      "product_id": 13,
+      "color": "rouge",
+      "size": 35,
+      "stock": 15
+    },
+    {
+      "id": 298,
+      "product_id": 14,
+      "color": "noir",
+      "size": 36,
+      "stock": 8
+    },
+    {
+      "id": 299,
+      "product_id": 14,
+      "color": "blanc",
+      "size": 36,
+      "stock": 9
+    },
+    {
+      "id": 300,
+      "product_id": 14,
+      "color": "rouge",
+      "size": 36,
+      "stock": 9
+    },
+    {
+      "id": 301,
+      "product_id": 14,
+      "color": "noir",
+      "size": 37,
+      "stock": 5
+    },
+    {
+      "id": 302,
+      "product_id": 14,
+      "color": "blanc",
+      "size": 37,
+      "stock": 12
+    },
+    {
+      "id": 303,
+      "product_id": 14,
+      "color": "rouge",
+      "size": 37,
+      "stock": 11
+    },
+    {
+      "id": 304,
+      "product_id": 14,
+      "color": "noir",
+      "size": 38,
+      "stock": 8
+    },
+    {
+      "id": 305,
+      "product_id": 14,
+      "color": "blanc",
+      "size": 38,
+      "stock": 7
+    },
+    {
+      "id": 306,
+      "product_id": 14,
+      "color": "rouge",
+      "size": 38,
+      "stock": 12
+    },
+    {
+      "id": 307,
+      "product_id": 14,
+      "color": "noir",
+      "size": 39,
+      "stock": 12
+    },
+    {
+      "id": 308,
+      "product_id": 14,
+      "color": "blanc",
+      "size": 39,
+      "stock": 12
+    },
+    {
+      "id": 309,
+      "product_id": 14,
+      "color": "rouge",
+      "size": 39,
+      "stock": 15
+    },
+    {
+      "id": 310,
+      "product_id": 14,
+      "color": "noir",
+      "size": 40,
+      "stock": 16
+    },
+    {
+      "id": 311,
+      "product_id": 14,
+      "color": "blanc",
+      "size": 40,
+      "stock": 14
+    },
+    {
+      "id": 312,
+      "product_id": 14,
+      "color": "rouge",
+      "size": 40,
+      "stock": 14
+    },
+    {
+      "id": 313,
+      "product_id": 14,
+      "color": "noir",
+      "size": 41,
+      "stock": 13
+    },
+    {
+      "id": 314,
+      "product_id": 14,
+      "color": "blanc",
+      "size": 41,
+      "stock": 10
+    },
+    {
+      "id": 315,
+      "product_id": 14,
+      "color": "rouge",
+      "size": 41,
+      "stock": 19
+    },
+    {
+      "id": 316,
+      "product_id": 14,
+      "color": "noir",
+      "size": 42,
+      "stock": 10
+    },
+    {
+      "id": 317,
+      "product_id": 14,
+      "color": "blanc",
+      "size": 42,
+      "stock": 13
+    },
+    {
+      "id": 318,
+      "product_id": 14,
+      "color": "rouge",
+      "size": 42,
+      "stock": 9
+    },
+    {
+      "id": 319,
+      "product_id": 15,
+      "color": "noir",
+      "size": 40,
+      "stock": 17
+    },
+    {
+      "id": 320,
+      "product_id": 15,
+      "color": "blanc",
+      "size": 40,
+      "stock": 14
+    },
+    {
+      "id": 321,
+      "product_id": 15,
+      "color": "rouge",
+      "size": 40,
+      "stock": 10
+    },
+    {
+      "id": 322,
+      "product_id": 15,
+      "color": "noir",
+      "size": 41,
+      "stock": 20
+    },
+    {
+      "id": 323,
+      "product_id": 15,
+      "color": "blanc",
+      "size": 41,
+      "stock": 17
+    },
+    {
+      "id": 324,
+      "product_id": 15,
+      "color": "rouge",
+      "size": 41,
+      "stock": 15
+    },
+    {
+      "id": 325,
+      "product_id": 15,
+      "color": "noir",
+      "size": 42,
+      "stock": 12
+    },
+    {
+      "id": 326,
+      "product_id": 15,
+      "color": "blanc",
+      "size": 42,
+      "stock": 19
+    },
+    {
+      "id": 327,
+      "product_id": 15,
+      "color": "rouge",
+      "size": 42,
+      "stock": 8
+    },
+    {
+      "id": 328,
+      "product_id": 15,
+      "color": "noir",
+      "size": 43,
+      "stock": 18
+    },
+    {
+      "id": 329,
+      "product_id": 15,
+      "color": "blanc",
+      "size": 43,
+      "stock": 20
+    },
+    {
+      "id": 330,
+      "product_id": 15,
+      "color": "rouge",
+      "size": 43,
+      "stock": 5
+    },
+    {
+      "id": 331,
+      "product_id": 15,
+      "color": "noir",
+      "size": 44,
+      "stock": 16
+    },
+    {
+      "id": 332,
+      "product_id": 15,
+      "color": "blanc",
+      "size": 44,
+      "stock": 19
+    },
+    {
+      "id": 333,
+      "product_id": 15,
+      "color": "rouge",
+      "size": 44,
+      "stock": 20
+    },
+    {
+      "id": 334,
+      "product_id": 15,
+      "color": "noir",
+      "size": 45,
+      "stock": 16
+    },
+    {
+      "id": 335,
+      "product_id": 15,
+      "color": "blanc",
+      "size": 45,
+      "stock": 15
+    },
+    {
+      "id": 336,
+      "product_id": 15,
+      "color": "rouge",
+      "size": 45,
+      "stock": 20
+    },
+    {
+      "id": 337,
+      "product_id": 15,
+      "color": "noir",
+      "size": 46,
+      "stock": 5
+    },
+    {
+      "id": 338,
+      "product_id": 15,
+      "color": "blanc",
+      "size": 46,
+      "stock": 14
+    },
+    {
+      "id": 339,
+      "product_id": 15,
+      "color": "rouge",
+      "size": 46,
+      "stock": 12
+    },
+    {
+      "id": 340,
+      "product_id": 16,
+      "color": "noir",
+      "size": 36,
+      "stock": 8
+    },
+    {
+      "id": 341,
+      "product_id": 16,
+      "color": "blanc",
+      "size": 36,
+      "stock": 19
+    },
+    {
+      "id": 342,
+      "product_id": 16,
+      "color": "rouge",
+      "size": 36,
+      "stock": 18
+    },
+    {
+      "id": 343,
+      "product_id": 16,
+      "color": "noir",
+      "size": 37,
+      "stock": 19
+    },
+    {
+      "id": 344,
+      "product_id": 16,
+      "color": "blanc",
+      "size": 37,
+      "stock": 20
+    },
+    {
+      "id": 345,
+      "product_id": 16,
+      "color": "rouge",
+      "size": 37,
+      "stock": 12
+    },
+    {
+      "id": 346,
+      "product_id": 16,
+      "color": "noir",
+      "size": 38,
+      "stock": 5
+    },
+    {
+      "id": 347,
+      "product_id": 16,
+      "color": "blanc",
+      "size": 38,
+      "stock": 19
+    },
+    {
+      "id": 348,
+      "product_id": 16,
+      "color": "rouge",
+      "size": 38,
+      "stock": 5
+    },
+    {
+      "id": 349,
+      "product_id": 16,
+      "color": "noir",
+      "size": 39,
+      "stock": 8
+    },
+    {
+      "id": 350,
+      "product_id": 16,
+      "color": "blanc",
+      "size": 39,
+      "stock": 6
+    },
+    {
+      "id": 351,
+      "product_id": 16,
+      "color": "rouge",
+      "size": 39,
+      "stock": 20
+    },
+    {
+      "id": 352,
+      "product_id": 16,
+      "color": "noir",
+      "size": 40,
+      "stock": 9
+    },
+    {
+      "id": 353,
+      "product_id": 16,
+      "color": "blanc",
+      "size": 40,
+      "stock": 17
+    },
+    {
+      "id": 354,
+      "product_id": 16,
+      "color": "rouge",
+      "size": 40,
+      "stock": 7
+    },
+    {
+      "id": 355,
+      "product_id": 16,
+      "color": "noir",
+      "size": 41,
+      "stock": 16
+    },
+    {
+      "id": 356,
+      "product_id": 16,
+      "color": "blanc",
+      "size": 41,
+      "stock": 12
+    },
+    {
+      "id": 357,
+      "product_id": 16,
+      "color": "rouge",
+      "size": 41,
+      "stock": 14
+    },
+    {
+      "id": 358,
+      "product_id": 16,
+      "color": "noir",
+      "size": 42,
+      "stock": 15
+    },
+    {
+      "id": 359,
+      "product_id": 16,
+      "color": "blanc",
+      "size": 42,
+      "stock": 6
+    },
+    {
+      "id": 360,
+      "product_id": 16,
+      "color": "rouge",
+      "size": 42,
+      "stock": 12
+    },
+    {
+      "id": 361,
+      "product_id": 17,
+      "color": "noir",
+      "size": 28,
+      "stock": 10
+    },
+    {
+      "id": 362,
+      "product_id": 17,
+      "color": "blanc",
+      "size": 28,
+      "stock": 19
+    },
+    {
+      "id": 363,
+      "product_id": 17,
+      "color": "rouge",
+      "size": 28,
+      "stock": 8
+    },
+    {
+      "id": 364,
+      "product_id": 17,
+      "color": "noir",
+      "size": 29,
+      "stock": 13
+    },
+    {
+      "id": 365,
+      "product_id": 17,
+      "color": "blanc",
+      "size": 29,
+      "stock": 20
+    },
+    {
+      "id": 366,
+      "product_id": 17,
+      "color": "rouge",
+      "size": 29,
+      "stock": 12
+    },
+    {
+      "id": 367,
+      "product_id": 17,
+      "color": "noir",
+      "size": 30,
+      "stock": 11
+    },
+    {
+      "id": 368,
+      "product_id": 17,
+      "color": "blanc",
+      "size": 30,
+      "stock": 5
+    },
+    {
+      "id": 369,
+      "product_id": 17,
+      "color": "rouge",
+      "size": 30,
+      "stock": 11
+    },
+    {
+      "id": 370,
+      "product_id": 17,
+      "color": "noir",
+      "size": 31,
+      "stock": 17
+    },
+    {
+      "id": 371,
+      "product_id": 17,
+      "color": "blanc",
+      "size": 31,
+      "stock": 5
+    },
+    {
+      "id": 372,
+      "product_id": 17,
+      "color": "rouge",
+      "size": 31,
+      "stock": 12
+    },
+    {
+      "id": 373,
+      "product_id": 17,
+      "color": "noir",
+      "size": 32,
+      "stock": 14
+    },
+    {
+      "id": 374,
+      "product_id": 17,
+      "color": "blanc",
+      "size": 32,
+      "stock": 19
+    },
+    {
+      "id": 375,
+      "product_id": 17,
+      "color": "rouge",
+      "size": 32,
+      "stock": 20
+    },
+    {
+      "id": 376,
+      "product_id": 17,
+      "color": "noir",
+      "size": 33,
+      "stock": 17
+    },
+    {
+      "id": 377,
+      "product_id": 17,
+      "color": "blanc",
+      "size": 33,
+      "stock": 5
+    },
+    {
+      "id": 378,
+      "product_id": 17,
+      "color": "rouge",
+      "size": 33,
+      "stock": 17
+    },
+    {
+      "id": 379,
+      "product_id": 17,
+      "color": "noir",
+      "size": 34,
+      "stock": 7
+    },
+    {
+      "id": 380,
+      "product_id": 17,
+      "color": "blanc",
+      "size": 34,
+      "stock": 20
+    },
+    {
+      "id": 381,
+      "product_id": 17,
+      "color": "rouge",
+      "size": 34,
+      "stock": 17
+    },
+    {
+      "id": 382,
+      "product_id": 17,
+      "color": "noir",
+      "size": 35,
+      "stock": 11
+    },
+    {
+      "id": 383,
+      "product_id": 17,
+      "color": "blanc",
+      "size": 35,
+      "stock": 8
+    },
+    {
+      "id": 384,
+      "product_id": 17,
+      "color": "rouge",
+      "size": 35,
+      "stock": 20
+    },
+    {
+      "id": 385,
+      "product_id": 18,
+      "color": "noir",
+      "size": 36,
+      "stock": 12
+    },
+    {
+      "id": 386,
+      "product_id": 18,
+      "color": "blanc",
+      "size": 36,
+      "stock": 19
+    },
+    {
+      "id": 387,
+      "product_id": 18,
+      "color": "rouge",
+      "size": 36,
+      "stock": 15
+    },
+    {
+      "id": 388,
+      "product_id": 18,
+      "color": "noir",
+      "size": 37,
+      "stock": 6
+    },
+    {
+      "id": 389,
+      "product_id": 18,
+      "color": "blanc",
+      "size": 37,
+      "stock": 7
+    },
+    {
+      "id": 390,
+      "product_id": 18,
+      "color": "rouge",
+      "size": 37,
+      "stock": 18
+    },
+    {
+      "id": 391,
+      "product_id": 18,
+      "color": "noir",
+      "size": 38,
+      "stock": 18
+    },
+    {
+      "id": 392,
+      "product_id": 18,
+      "color": "blanc",
+      "size": 38,
+      "stock": 8
+    },
+    {
+      "id": 393,
+      "product_id": 18,
+      "color": "rouge",
+      "size": 38,
+      "stock": 20
+    },
+    {
+      "id": 394,
+      "product_id": 18,
+      "color": "noir",
+      "size": 39,
+      "stock": 11
+    },
+    {
+      "id": 395,
+      "product_id": 18,
+      "color": "blanc",
+      "size": 39,
+      "stock": 5
+    },
+    {
+      "id": 396,
+      "product_id": 18,
+      "color": "rouge",
+      "size": 39,
+      "stock": 18
+    },
+    {
+      "id": 397,
+      "product_id": 18,
+      "color": "noir",
+      "size": 40,
+      "stock": 16
+    },
+    {
+      "id": 398,
+      "product_id": 18,
+      "color": "blanc",
+      "size": 40,
+      "stock": 19
+    },
+    {
+      "id": 399,
+      "product_id": 18,
+      "color": "rouge",
+      "size": 40,
+      "stock": 12
+    },
+    {
+      "id": 400,
+      "product_id": 18,
+      "color": "noir",
+      "size": 41,
+      "stock": 11
+    },
+    {
+      "id": 401,
+      "product_id": 18,
+      "color": "blanc",
+      "size": 41,
+      "stock": 11
+    },
+    {
+      "id": 402,
+      "product_id": 18,
+      "color": "rouge",
+      "size": 41,
+      "stock": 19
+    },
+    {
+      "id": 403,
+      "product_id": 18,
+      "color": "noir",
+      "size": 42,
+      "stock": 6
+    },
+    {
+      "id": 404,
+      "product_id": 18,
+      "color": "blanc",
+      "size": 42,
+      "stock": 18
+    },
+    {
+      "id": 405,
+      "product_id": 18,
+      "color": "rouge",
+      "size": 42,
+      "stock": 18
+    },
+    {
+      "id": 406,
+      "product_id": 19,
+      "color": "noir",
+      "size": 40,
+      "stock": 9
+    },
+    {
+      "id": 407,
+      "product_id": 19,
+      "color": "blanc",
+      "size": 40,
+      "stock": 9
+    },
+    {
+      "id": 408,
+      "product_id": 19,
+      "color": "rouge",
+      "size": 40,
+      "stock": 17
+    },
+    {
+      "id": 409,
+      "product_id": 19,
+      "color": "noir",
+      "size": 41,
+      "stock": 8
+    },
+    {
+      "id": 410,
+      "product_id": 19,
+      "color": "blanc",
+      "size": 41,
+      "stock": 19
+    },
+    {
+      "id": 411,
+      "product_id": 19,
+      "color": "rouge",
+      "size": 41,
+      "stock": 6
+    },
+    {
+      "id": 412,
+      "product_id": 19,
+      "color": "noir",
+      "size": 42,
+      "stock": 15
+    },
+    {
+      "id": 413,
+      "product_id": 19,
+      "color": "blanc",
+      "size": 42,
+      "stock": 8
+    },
+    {
+      "id": 414,
+      "product_id": 19,
+      "color": "rouge",
+      "size": 42,
+      "stock": 15
+    },
+    {
+      "id": 415,
+      "product_id": 19,
+      "color": "noir",
+      "size": 43,
+      "stock": 8
+    },
+    {
+      "id": 416,
+      "product_id": 19,
+      "color": "blanc",
+      "size": 43,
+      "stock": 20
+    },
+    {
+      "id": 417,
+      "product_id": 19,
+      "color": "rouge",
+      "size": 43,
+      "stock": 13
+    },
+    {
+      "id": 418,
+      "product_id": 19,
+      "color": "noir",
+      "size": 44,
+      "stock": 11
+    },
+    {
+      "id": 419,
+      "product_id": 19,
+      "color": "blanc",
+      "size": 44,
+      "stock": 13
+    },
+    {
+      "id": 420,
+      "product_id": 19,
+      "color": "rouge",
+      "size": 44,
+      "stock": 15
+    },
+    {
+      "id": 421,
+      "product_id": 19,
+      "color": "noir",
+      "size": 45,
+      "stock": 7
+    },
+    {
+      "id": 422,
+      "product_id": 19,
+      "color": "blanc",
+      "size": 45,
+      "stock": 8
+    },
+    {
+      "id": 423,
+      "product_id": 19,
+      "color": "rouge",
+      "size": 45,
+      "stock": 11
+    },
+    {
+      "id": 424,
+      "product_id": 19,
+      "color": "noir",
+      "size": 46,
+      "stock": 10
+    },
+    {
+      "id": 425,
+      "product_id": 19,
+      "color": "blanc",
+      "size": 46,
+      "stock": 5
+    },
+    {
+      "id": 426,
+      "product_id": 19,
+      "color": "rouge",
+      "size": 46,
+      "stock": 19
+    },
+    {
+      "id": 427,
+      "product_id": 20,
+      "color": "noir",
+      "size": 28,
+      "stock": 16
+    },
+    {
+      "id": 428,
+      "product_id": 20,
+      "color": "blanc",
+      "size": 28,
+      "stock": 9
+    },
+    {
+      "id": 429,
+      "product_id": 20,
+      "color": "rouge",
+      "size": 28,
+      "stock": 12
+    },
+    {
+      "id": 430,
+      "product_id": 20,
+      "color": "noir",
+      "size": 29,
+      "stock": 9
+    },
+    {
+      "id": 431,
+      "product_id": 20,
+      "color": "blanc",
+      "size": 29,
+      "stock": 16
+    },
+    {
+      "id": 432,
+      "product_id": 20,
+      "color": "rouge",
+      "size": 29,
+      "stock": 9
+    },
+    {
+      "id": 433,
+      "product_id": 20,
+      "color": "noir",
+      "size": 30,
+      "stock": 13
+    },
+    {
+      "id": 434,
+      "product_id": 20,
+      "color": "blanc",
+      "size": 30,
+      "stock": 6
+    },
+    {
+      "id": 435,
+      "product_id": 20,
+      "color": "rouge",
+      "size": 30,
+      "stock": 8
+    },
+    {
+      "id": 436,
+      "product_id": 20,
+      "color": "noir",
+      "size": 31,
+      "stock": 5
+    },
+    {
+      "id": 437,
+      "product_id": 20,
+      "color": "blanc",
+      "size": 31,
+      "stock": 10
+    },
+    {
+      "id": 438,
+      "product_id": 20,
+      "color": "rouge",
+      "size": 31,
+      "stock": 18
+    },
+    {
+      "id": 439,
+      "product_id": 20,
+      "color": "noir",
+      "size": 32,
+      "stock": 9
+    },
+    {
+      "id": 440,
+      "product_id": 20,
+      "color": "blanc",
+      "size": 32,
+      "stock": 15
+    },
+    {
+      "id": 441,
+      "product_id": 20,
+      "color": "rouge",
+      "size": 32,
+      "stock": 16
+    },
+    {
+      "id": 442,
+      "product_id": 20,
+      "color": "noir",
+      "size": 33,
+      "stock": 14
+    },
+    {
+      "id": 443,
+      "product_id": 20,
+      "color": "blanc",
+      "size": 33,
+      "stock": 9
+    },
+    {
+      "id": 444,
+      "product_id": 20,
+      "color": "rouge",
+      "size": 33,
+      "stock": 13
+    },
+    {
+      "id": 445,
+      "product_id": 20,
+      "color": "noir",
+      "size": 34,
+      "stock": 18
+    },
+    {
+      "id": 446,
+      "product_id": 20,
+      "color": "blanc",
+      "size": 34,
+      "stock": 14
+    },
+    {
+      "id": 447,
+      "product_id": 20,
+      "color": "rouge",
+      "size": 34,
+      "stock": 9
+    },
+    {
+      "id": 448,
+      "product_id": 20,
+      "color": "noir",
+      "size": 35,
+      "stock": 14
+    },
+    {
+      "id": 449,
+      "product_id": 20,
+      "color": "blanc",
+      "size": 35,
+      "stock": 12
+    },
+    {
+      "id": 450,
+      "product_id": 20,
+      "color": "rouge",
+      "size": 35,
+      "stock": 9
+    },
+    {
+      "id": 451,
+      "product_id": 21,
+      "color": "noir",
+      "size": 40,
+      "stock": 12
+    },
+    {
+      "id": 452,
+      "product_id": 21,
+      "color": "blanc",
+      "size": 40,
+      "stock": 17
+    },
+    {
+      "id": 453,
+      "product_id": 21,
+      "color": "rouge",
+      "size": 40,
+      "stock": 5
+    },
+    {
+      "id": 454,
+      "product_id": 21,
+      "color": "noir",
+      "size": 41,
+      "stock": 17
+    },
+    {
+      "id": 455,
+      "product_id": 21,
+      "color": "blanc",
+      "size": 41,
+      "stock": 6
+    },
+    {
+      "id": 456,
+      "product_id": 21,
+      "color": "rouge",
+      "size": 41,
+      "stock": 15
+    },
+    {
+      "id": 457,
+      "product_id": 21,
+      "color": "noir",
+      "size": 42,
+      "stock": 19
+    },
+    {
+      "id": 458,
+      "product_id": 21,
+      "color": "blanc",
+      "size": 42,
+      "stock": 13
+    },
+    {
+      "id": 459,
+      "product_id": 21,
+      "color": "rouge",
+      "size": 42,
+      "stock": 18
+    },
+    {
+      "id": 460,
+      "product_id": 21,
+      "color": "noir",
+      "size": 43,
+      "stock": 8
+    },
+    {
+      "id": 461,
+      "product_id": 21,
+      "color": "blanc",
+      "size": 43,
+      "stock": 18
+    },
+    {
+      "id": 462,
+      "product_id": 21,
+      "color": "rouge",
+      "size": 43,
+      "stock": 12
+    },
+    {
+      "id": 463,
+      "product_id": 21,
+      "color": "noir",
+      "size": 44,
+      "stock": 5
+    },
+    {
+      "id": 464,
+      "product_id": 21,
+      "color": "blanc",
+      "size": 44,
+      "stock": 17
+    },
+    {
+      "id": 465,
+      "product_id": 21,
+      "color": "rouge",
+      "size": 44,
+      "stock": 6
+    },
+    {
+      "id": 466,
+      "product_id": 21,
+      "color": "noir",
+      "size": 45,
+      "stock": 20
+    },
+    {
+      "id": 467,
+      "product_id": 21,
+      "color": "blanc",
+      "size": 45,
+      "stock": 14
+    },
+    {
+      "id": 468,
+      "product_id": 21,
+      "color": "rouge",
+      "size": 45,
+      "stock": 20
+    },
+    {
+      "id": 469,
+      "product_id": 21,
+      "color": "noir",
+      "size": 46,
+      "stock": 16
+    },
+    {
+      "id": 470,
+      "product_id": 21,
+      "color": "blanc",
+      "size": 46,
+      "stock": 12
+    },
+    {
+      "id": 471,
+      "product_id": 21,
+      "color": "rouge",
+      "size": 46,
+      "stock": 17
+    },
+    {
+      "id": 472,
+      "product_id": 22,
+      "color": "noir",
+      "size": 36,
+      "stock": 17
+    },
+    {
+      "id": 473,
+      "product_id": 22,
+      "color": "blanc",
+      "size": 36,
+      "stock": 17
+    },
+    {
+      "id": 474,
+      "product_id": 22,
+      "color": "rouge",
+      "size": 36,
+      "stock": 9
+    },
+    {
+      "id": 475,
+      "product_id": 22,
+      "color": "noir",
+      "size": 37,
+      "stock": 7
+    },
+    {
+      "id": 476,
+      "product_id": 22,
+      "color": "blanc",
+      "size": 37,
+      "stock": 19
+    },
+    {
+      "id": 477,
+      "product_id": 22,
+      "color": "rouge",
+      "size": 37,
+      "stock": 18
+    },
+    {
+      "id": 478,
+      "product_id": 22,
+      "color": "noir",
+      "size": 38,
+      "stock": 6
+    },
+    {
+      "id": 479,
+      "product_id": 22,
+      "color": "blanc",
+      "size": 38,
+      "stock": 13
+    },
+    {
+      "id": 480,
+      "product_id": 22,
+      "color": "rouge",
+      "size": 38,
+      "stock": 7
+    },
+    {
+      "id": 481,
+      "product_id": 22,
+      "color": "noir",
+      "size": 39,
+      "stock": 15
+    },
+    {
+      "id": 482,
+      "product_id": 22,
+      "color": "blanc",
+      "size": 39,
+      "stock": 5
+    },
+    {
+      "id": 483,
+      "product_id": 22,
+      "color": "rouge",
+      "size": 39,
+      "stock": 5
+    },
+    {
+      "id": 484,
+      "product_id": 22,
+      "color": "noir",
+      "size": 40,
+      "stock": 8
+    },
+    {
+      "id": 485,
+      "product_id": 22,
+      "color": "blanc",
+      "size": 40,
+      "stock": 5
+    },
+    {
+      "id": 486,
+      "product_id": 22,
+      "color": "rouge",
+      "size": 40,
+      "stock": 6
+    },
+    {
+      "id": 487,
+      "product_id": 22,
+      "color": "noir",
+      "size": 41,
+      "stock": 9
+    },
+    {
+      "id": 488,
+      "product_id": 22,
+      "color": "blanc",
+      "size": 41,
+      "stock": 6
+    },
+    {
+      "id": 489,
+      "product_id": 22,
+      "color": "rouge",
+      "size": 41,
+      "stock": 6
+    },
+    {
+      "id": 490,
+      "product_id": 22,
+      "color": "noir",
+      "size": 42,
+      "stock": 6
+    },
+    {
+      "id": 491,
+      "product_id": 22,
+      "color": "blanc",
+      "size": 42,
+      "stock": 5
+    },
+    {
+      "id": 492,
+      "product_id": 22,
+      "color": "rouge",
+      "size": 42,
+      "stock": 17
+    },
+    {
+      "id": 493,
+      "product_id": 23,
+      "color": "noir",
+      "size": 40,
+      "stock": 19
+    },
+    {
+      "id": 494,
+      "product_id": 23,
+      "color": "blanc",
+      "size": 40,
+      "stock": 17
+    },
+    {
+      "id": 495,
+      "product_id": 23,
+      "color": "rouge",
+      "size": 40,
+      "stock": 6
+    },
+    {
+      "id": 496,
+      "product_id": 23,
+      "color": "noir",
+      "size": 41,
+      "stock": 8
+    },
+    {
+      "id": 497,
+      "product_id": 23,
+      "color": "blanc",
+      "size": 41,
+      "stock": 7
+    },
+    {
+      "id": 498,
+      "product_id": 23,
+      "color": "rouge",
+      "size": 41,
+      "stock": 12
+    },
+    {
+      "id": 499,
+      "product_id": 23,
+      "color": "noir",
+      "size": 42,
+      "stock": 14
+    },
+    {
+      "id": 500,
+      "product_id": 23,
+      "color": "blanc",
+      "size": 42,
+      "stock": 12
+    },
+    {
+      "id": 501,
+      "product_id": 23,
+      "color": "rouge",
+      "size": 42,
+      "stock": 7
+    },
+    {
+      "id": 502,
+      "product_id": 23,
+      "color": "noir",
+      "size": 43,
+      "stock": 20
+    },
+    {
+      "id": 503,
+      "product_id": 23,
+      "color": "blanc",
+      "size": 43,
+      "stock": 11
+    },
+    {
+      "id": 504,
+      "product_id": 23,
+      "color": "rouge",
+      "size": 43,
+      "stock": 12
+    },
+    {
+      "id": 505,
+      "product_id": 23,
+      "color": "noir",
+      "size": 44,
+      "stock": 11
+    },
+    {
+      "id": 506,
+      "product_id": 23,
+      "color": "blanc",
+      "size": 44,
+      "stock": 10
+    },
+    {
+      "id": 507,
+      "product_id": 23,
+      "color": "rouge",
+      "size": 44,
+      "stock": 17
+    },
+    {
+      "id": 508,
+      "product_id": 23,
+      "color": "noir",
+      "size": 45,
+      "stock": 17
+    },
+    {
+      "id": 509,
+      "product_id": 23,
+      "color": "blanc",
+      "size": 45,
+      "stock": 9
+    },
+    {
+      "id": 510,
+      "product_id": 23,
+      "color": "rouge",
+      "size": 45,
+      "stock": 12
+    },
+    {
+      "id": 511,
+      "product_id": 23,
+      "color": "noir",
+      "size": 46,
+      "stock": 5
+    },
+    {
+      "id": 512,
+      "product_id": 23,
+      "color": "blanc",
+      "size": 46,
+      "stock": 9
+    },
+    {
+      "id": 513,
+      "product_id": 23,
+      "color": "rouge",
+      "size": 46,
+      "stock": 10
+    },
+    {
+      "id": 514,
+      "product_id": 24,
+      "color": "noir",
+      "size": 36,
+      "stock": 10
+    },
+    {
+      "id": 515,
+      "product_id": 24,
+      "color": "blanc",
+      "size": 36,
+      "stock": 20
+    },
+    {
+      "id": 516,
+      "product_id": 24,
+      "color": "rouge",
+      "size": 36,
+      "stock": 18
+    },
+    {
+      "id": 517,
+      "product_id": 24,
+      "color": "noir",
+      "size": 37,
+      "stock": 18
+    },
+    {
+      "id": 518,
+      "product_id": 24,
+      "color": "blanc",
+      "size": 37,
+      "stock": 7
+    },
+    {
+      "id": 519,
+      "product_id": 24,
+      "color": "rouge",
+      "size": 37,
+      "stock": 9
+    },
+    {
+      "id": 520,
+      "product_id": 24,
+      "color": "noir",
+      "size": 38,
+      "stock": 9
+    },
+    {
+      "id": 521,
+      "product_id": 24,
+      "color": "blanc",
+      "size": 38,
+      "stock": 7
+    },
+    {
+      "id": 522,
+      "product_id": 24,
+      "color": "rouge",
+      "size": 38,
+      "stock": 8
+    },
+    {
+      "id": 523,
+      "product_id": 24,
+      "color": "noir",
+      "size": 39,
+      "stock": 16
+    },
+    {
+      "id": 524,
+      "product_id": 24,
+      "color": "blanc",
+      "size": 39,
+      "stock": 13
+    },
+    {
+      "id": 525,
+      "product_id": 24,
+      "color": "rouge",
+      "size": 39,
+      "stock": 8
+    },
+    {
+      "id": 526,
+      "product_id": 24,
+      "color": "noir",
+      "size": 40,
+      "stock": 5
+    },
+    {
+      "id": 527,
+      "product_id": 24,
+      "color": "blanc",
+      "size": 40,
+      "stock": 8
+    },
+    {
+      "id": 528,
+      "product_id": 24,
+      "color": "rouge",
+      "size": 40,
+      "stock": 12
+    },
+    {
+      "id": 529,
+      "product_id": 24,
+      "color": "noir",
+      "size": 41,
+      "stock": 7
+    },
+    {
+      "id": 530,
+      "product_id": 24,
+      "color": "blanc",
+      "size": 41,
+      "stock": 6
+    },
+    {
+      "id": 531,
+      "product_id": 24,
+      "color": "rouge",
+      "size": 41,
+      "stock": 10
+    },
+    {
+      "id": 532,
+      "product_id": 24,
+      "color": "noir",
+      "size": 42,
+      "stock": 5
+    },
+    {
+      "id": 533,
+      "product_id": 24,
+      "color": "blanc",
+      "size": 42,
+      "stock": 9
+    },
+    {
+      "id": 534,
+      "product_id": 24,
+      "color": "rouge",
+      "size": 42,
+      "stock": 17
+    },
+    {
+      "id": 535,
+      "product_id": 25,
+      "color": "noir",
+      "size": 40,
+      "stock": 13
+    },
+    {
+      "id": 536,
+      "product_id": 25,
+      "color": "blanc",
+      "size": 40,
+      "stock": 20
+    },
+    {
+      "id": 537,
+      "product_id": 25,
+      "color": "rouge",
+      "size": 40,
+      "stock": 9
+    },
+    {
+      "id": 538,
+      "product_id": 25,
+      "color": "noir",
+      "size": 41,
+      "stock": 14
+    },
+    {
+      "id": 539,
+      "product_id": 25,
+      "color": "blanc",
+      "size": 41,
+      "stock": 14
+    },
+    {
+      "id": 540,
+      "product_id": 25,
+      "color": "rouge",
+      "size": 41,
+      "stock": 10
+    },
+    {
+      "id": 541,
+      "product_id": 25,
+      "color": "noir",
+      "size": 42,
+      "stock": 20
+    },
+    {
+      "id": 542,
+      "product_id": 25,
+      "color": "blanc",
+      "size": 42,
+      "stock": 11
+    },
+    {
+      "id": 543,
+      "product_id": 25,
+      "color": "rouge",
+      "size": 42,
+      "stock": 8
+    },
+    {
+      "id": 544,
+      "product_id": 25,
+      "color": "noir",
+      "size": 43,
+      "stock": 10
+    },
+    {
+      "id": 545,
+      "product_id": 25,
+      "color": "blanc",
+      "size": 43,
+      "stock": 17
+    },
+    {
+      "id": 546,
+      "product_id": 25,
+      "color": "rouge",
+      "size": 43,
+      "stock": 7
+    },
+    {
+      "id": 547,
+      "product_id": 25,
+      "color": "noir",
+      "size": 44,
+      "stock": 16
+    },
+    {
+      "id": 548,
+      "product_id": 25,
+      "color": "blanc",
+      "size": 44,
+      "stock": 12
+    },
+    {
+      "id": 549,
+      "product_id": 25,
+      "color": "rouge",
+      "size": 44,
+      "stock": 6
+    },
+    {
+      "id": 550,
+      "product_id": 25,
+      "color": "noir",
+      "size": 45,
+      "stock": 12
+    },
+    {
+      "id": 551,
+      "product_id": 25,
+      "color": "blanc",
+      "size": 45,
+      "stock": 14
+    },
+    {
+      "id": 552,
+      "product_id": 25,
+      "color": "rouge",
+      "size": 45,
+      "stock": 5
+    },
+    {
+      "id": 553,
+      "product_id": 25,
+      "color": "noir",
+      "size": 46,
+      "stock": 16
+    },
+    {
+      "id": 554,
+      "product_id": 25,
+      "color": "blanc",
+      "size": 46,
+      "stock": 5
+    },
+    {
+      "id": 555,
+      "product_id": 25,
+      "color": "rouge",
+      "size": 46,
+      "stock": 15
+    },
+    {
+      "id": 556,
+      "product_id": 26,
+      "color": "noir",
+      "size": 28,
+      "stock": 20
+    },
+    {
+      "id": 557,
+      "product_id": 26,
+      "color": "blanc",
+      "size": 28,
+      "stock": 18
+    },
+    {
+      "id": 558,
+      "product_id": 26,
+      "color": "rouge",
+      "size": 28,
+      "stock": 8
+    },
+    {
+      "id": 559,
+      "product_id": 26,
+      "color": "noir",
+      "size": 29,
+      "stock": 5
+    },
+    {
+      "id": 560,
+      "product_id": 26,
+      "color": "blanc",
+      "size": 29,
+      "stock": 14
+    },
+    {
+      "id": 561,
+      "product_id": 26,
+      "color": "rouge",
+      "size": 29,
+      "stock": 12
+    },
+    {
+      "id": 562,
+      "product_id": 26,
+      "color": "noir",
+      "size": 30,
+      "stock": 17
+    },
+    {
+      "id": 563,
+      "product_id": 26,
+      "color": "blanc",
+      "size": 30,
+      "stock": 18
+    },
+    {
+      "id": 564,
+      "product_id": 26,
+      "color": "rouge",
+      "size": 30,
+      "stock": 20
+    },
+    {
+      "id": 565,
+      "product_id": 26,
+      "color": "noir",
+      "size": 31,
+      "stock": 6
+    },
+    {
+      "id": 566,
+      "product_id": 26,
+      "color": "blanc",
+      "size": 31,
+      "stock": 16
+    },
+    {
+      "id": 567,
+      "product_id": 26,
+      "color": "rouge",
+      "size": 31,
+      "stock": 7
+    },
+    {
+      "id": 568,
+      "product_id": 26,
+      "color": "noir",
+      "size": 32,
+      "stock": 7
+    },
+    {
+      "id": 569,
+      "product_id": 26,
+      "color": "blanc",
+      "size": 32,
+      "stock": 18
+    },
+    {
+      "id": 570,
+      "product_id": 26,
+      "color": "rouge",
+      "size": 32,
+      "stock": 15
+    },
+    {
+      "id": 571,
+      "product_id": 26,
+      "color": "noir",
+      "size": 33,
+      "stock": 11
+    },
+    {
+      "id": 572,
+      "product_id": 26,
+      "color": "blanc",
+      "size": 33,
+      "stock": 10
+    },
+    {
+      "id": 573,
+      "product_id": 26,
+      "color": "rouge",
+      "size": 33,
+      "stock": 11
+    },
+    {
+      "id": 574,
+      "product_id": 26,
+      "color": "noir",
+      "size": 34,
+      "stock": 11
+    },
+    {
+      "id": 575,
+      "product_id": 26,
+      "color": "blanc",
+      "size": 34,
+      "stock": 15
+    },
+    {
+      "id": 576,
+      "product_id": 26,
+      "color": "rouge",
+      "size": 34,
+      "stock": 17
+    },
+    {
+      "id": 577,
+      "product_id": 26,
+      "color": "noir",
+      "size": 35,
+      "stock": 18
+    },
+    {
+      "id": 578,
+      "product_id": 26,
+      "color": "blanc",
+      "size": 35,
+      "stock": 16
+    },
+    {
+      "id": 579,
+      "product_id": 26,
+      "color": "rouge",
+      "size": 35,
+      "stock": 17
+    },
+    {
+      "id": 580,
+      "product_id": 27,
+      "color": "noir",
+      "size": 36,
+      "stock": 6
+    },
+    {
+      "id": 581,
+      "product_id": 27,
+      "color": "blanc",
+      "size": 36,
+      "stock": 20
+    },
+    {
+      "id": 582,
+      "product_id": 27,
+      "color": "rouge",
+      "size": 36,
+      "stock": 6
+    },
+    {
+      "id": 583,
+      "product_id": 27,
+      "color": "noir",
+      "size": 37,
+      "stock": 19
+    },
+    {
+      "id": 584,
+      "product_id": 27,
+      "color": "blanc",
+      "size": 37,
+      "stock": 16
+    },
+    {
+      "id": 585,
+      "product_id": 27,
+      "color": "rouge",
+      "size": 37,
+      "stock": 8
+    },
+    {
+      "id": 586,
+      "product_id": 27,
+      "color": "noir",
+      "size": 38,
+      "stock": 12
+    },
+    {
+      "id": 587,
+      "product_id": 27,
+      "color": "blanc",
+      "size": 38,
+      "stock": 20
+    },
+    {
+      "id": 588,
+      "product_id": 27,
+      "color": "rouge",
+      "size": 38,
+      "stock": 9
+    },
+    {
+      "id": 589,
+      "product_id": 27,
+      "color": "noir",
+      "size": 39,
+      "stock": 20
+    },
+    {
+      "id": 590,
+      "product_id": 27,
+      "color": "blanc",
+      "size": 39,
+      "stock": 20
+    },
+    {
+      "id": 591,
+      "product_id": 27,
+      "color": "rouge",
+      "size": 39,
+      "stock": 16
+    },
+    {
+      "id": 592,
+      "product_id": 27,
+      "color": "noir",
+      "size": 40,
+      "stock": 10
+    },
+    {
+      "id": 593,
+      "product_id": 27,
+      "color": "blanc",
+      "size": 40,
+      "stock": 8
+    },
+    {
+      "id": 594,
+      "product_id": 27,
+      "color": "rouge",
+      "size": 40,
+      "stock": 12
+    },
+    {
+      "id": 595,
+      "product_id": 27,
+      "color": "noir",
+      "size": 41,
+      "stock": 13
+    },
+    {
+      "id": 596,
+      "product_id": 27,
+      "color": "blanc",
+      "size": 41,
+      "stock": 20
+    },
+    {
+      "id": 597,
+      "product_id": 27,
+      "color": "rouge",
+      "size": 41,
+      "stock": 18
+    },
+    {
+      "id": 598,
+      "product_id": 27,
+      "color": "noir",
+      "size": 42,
+      "stock": 16
+    },
+    {
+      "id": 599,
+      "product_id": 27,
+      "color": "blanc",
+      "size": 42,
+      "stock": 17
+    },
+    {
+      "id": 600,
+      "product_id": 27,
+      "color": "rouge",
+      "size": 42,
+      "stock": 18
+    },
+    {
+      "id": 601,
+      "product_id": 28,
+      "color": "noir",
+      "size": 36,
+      "stock": 12
+    },
+    {
+      "id": 602,
+      "product_id": 28,
+      "color": "blanc",
+      "size": 36,
+      "stock": 18
+    },
+    {
+      "id": 603,
+      "product_id": 28,
+      "color": "rouge",
+      "size": 36,
+      "stock": 17
+    },
+    {
+      "id": 604,
+      "product_id": 28,
+      "color": "noir",
+      "size": 37,
+      "stock": 19
+    },
+    {
+      "id": 605,
+      "product_id": 28,
+      "color": "blanc",
+      "size": 37,
+      "stock": 19
+    },
+    {
+      "id": 606,
+      "product_id": 28,
+      "color": "rouge",
+      "size": 37,
+      "stock": 10
+    },
+    {
+      "id": 607,
+      "product_id": 28,
+      "color": "noir",
+      "size": 38,
+      "stock": 7
+    },
+    {
+      "id": 608,
+      "product_id": 28,
+      "color": "blanc",
+      "size": 38,
+      "stock": 19
+    },
+    {
+      "id": 609,
+      "product_id": 28,
+      "color": "rouge",
+      "size": 38,
+      "stock": 7
+    },
+    {
+      "id": 610,
+      "product_id": 28,
+      "color": "noir",
+      "size": 39,
+      "stock": 7
+    },
+    {
+      "id": 611,
+      "product_id": 28,
+      "color": "blanc",
+      "size": 39,
+      "stock": 14
+    },
+    {
+      "id": 612,
+      "product_id": 28,
+      "color": "rouge",
+      "size": 39,
+      "stock": 16
+    },
+    {
+      "id": 613,
+      "product_id": 28,
+      "color": "noir",
+      "size": 40,
+      "stock": 16
+    },
+    {
+      "id": 614,
+      "product_id": 28,
+      "color": "blanc",
+      "size": 40,
+      "stock": 11
+    },
+    {
+      "id": 615,
+      "product_id": 28,
+      "color": "rouge",
+      "size": 40,
+      "stock": 14
+    },
+    {
+      "id": 616,
+      "product_id": 28,
+      "color": "noir",
+      "size": 41,
+      "stock": 15
+    },
+    {
+      "id": 617,
+      "product_id": 28,
+      "color": "blanc",
+      "size": 41,
+      "stock": 15
+    },
+    {
+      "id": 618,
+      "product_id": 28,
+      "color": "rouge",
+      "size": 41,
+      "stock": 17
+    },
+    {
+      "id": 619,
+      "product_id": 28,
+      "color": "noir",
+      "size": 42,
+      "stock": 10
+    },
+    {
+      "id": 620,
+      "product_id": 28,
+      "color": "blanc",
+      "size": 42,
+      "stock": 11
+    },
+    {
+      "id": 621,
+      "product_id": 28,
+      "color": "rouge",
+      "size": 42,
+      "stock": 11
+    },
+    {
+      "id": 622,
+      "product_id": 29,
+      "color": "noir",
+      "size": 40,
+      "stock": 6
+    },
+    {
+      "id": 623,
+      "product_id": 29,
+      "color": "blanc",
+      "size": 40,
+      "stock": 10
+    },
+    {
+      "id": 624,
+      "product_id": 29,
+      "color": "rouge",
+      "size": 40,
+      "stock": 16
+    },
+    {
+      "id": 625,
+      "product_id": 29,
+      "color": "noir",
+      "size": 41,
+      "stock": 20
+    },
+    {
+      "id": 626,
+      "product_id": 29,
+      "color": "blanc",
+      "size": 41,
+      "stock": 9
+    },
+    {
+      "id": 627,
+      "product_id": 29,
+      "color": "rouge",
+      "size": 41,
+      "stock": 14
+    },
+    {
+      "id": 628,
+      "product_id": 29,
+      "color": "noir",
+      "size": 42,
+      "stock": 19
+    },
+    {
+      "id": 629,
+      "product_id": 29,
+      "color": "blanc",
+      "size": 42,
+      "stock": 12
+    },
+    {
+      "id": 630,
+      "product_id": 29,
+      "color": "rouge",
+      "size": 42,
+      "stock": 10
+    },
+    {
+      "id": 631,
+      "product_id": 29,
+      "color": "noir",
+      "size": 43,
+      "stock": 15
+    },
+    {
+      "id": 632,
+      "product_id": 29,
+      "color": "blanc",
+      "size": 43,
+      "stock": 14
+    },
+    {
+      "id": 633,
+      "product_id": 29,
+      "color": "rouge",
+      "size": 43,
+      "stock": 6
+    },
+    {
+      "id": 634,
+      "product_id": 29,
+      "color": "noir",
+      "size": 44,
+      "stock": 19
+    },
+    {
+      "id": 635,
+      "product_id": 29,
+      "color": "blanc",
+      "size": 44,
+      "stock": 16
+    },
+    {
+      "id": 636,
+      "product_id": 29,
+      "color": "rouge",
+      "size": 44,
+      "stock": 5
+    },
+    {
+      "id": 637,
+      "product_id": 29,
+      "color": "noir",
+      "size": 45,
+      "stock": 11
+    },
+    {
+      "id": 638,
+      "product_id": 29,
+      "color": "blanc",
+      "size": 45,
+      "stock": 17
+    },
+    {
+      "id": 639,
+      "product_id": 29,
+      "color": "rouge",
+      "size": 45,
+      "stock": 15
+    },
+    {
+      "id": 640,
+      "product_id": 29,
+      "color": "noir",
+      "size": 46,
+      "stock": 19
+    },
+    {
+      "id": 641,
+      "product_id": 29,
+      "color": "blanc",
+      "size": 46,
+      "stock": 18
+    },
+    {
+      "id": 642,
+      "product_id": 29,
+      "color": "rouge",
+      "size": 46,
+      "stock": 9
+    },
+    {
+      "id": 643,
+      "product_id": 30,
+      "color": "noir",
+      "size": 36,
+      "stock": 11
+    },
+    {
+      "id": 644,
+      "product_id": 30,
+      "color": "blanc",
+      "size": 36,
+      "stock": 5
+    },
+    {
+      "id": 645,
+      "product_id": 30,
+      "color": "rouge",
+      "size": 36,
+      "stock": 18
+    },
+    {
+      "id": 646,
+      "product_id": 30,
+      "color": "noir",
+      "size": 37,
+      "stock": 15
+    },
+    {
+      "id": 647,
+      "product_id": 30,
+      "color": "blanc",
+      "size": 37,
+      "stock": 8
+    },
+    {
+      "id": 648,
+      "product_id": 30,
+      "color": "rouge",
+      "size": 37,
+      "stock": 6
+    },
+    {
+      "id": 649,
+      "product_id": 30,
+      "color": "noir",
+      "size": 38,
+      "stock": 8
+    },
+    {
+      "id": 650,
+      "product_id": 30,
+      "color": "blanc",
+      "size": 38,
+      "stock": 17
+    },
+    {
+      "id": 651,
+      "product_id": 30,
+      "color": "rouge",
+      "size": 38,
+      "stock": 16
+    },
+    {
+      "id": 652,
+      "product_id": 30,
+      "color": "noir",
+      "size": 39,
+      "stock": 8
+    },
+    {
+      "id": 653,
+      "product_id": 30,
+      "color": "blanc",
+      "size": 39,
+      "stock": 5
+    },
+    {
+      "id": 654,
+      "product_id": 30,
+      "color": "rouge",
+      "size": 39,
+      "stock": 14
+    },
+    {
+      "id": 655,
+      "product_id": 30,
+      "color": "noir",
+      "size": 40,
+      "stock": 6
+    },
+    {
+      "id": 656,
+      "product_id": 30,
+      "color": "blanc",
+      "size": 40,
+      "stock": 17
+    },
+    {
+      "id": 657,
+      "product_id": 30,
+      "color": "rouge",
+      "size": 40,
+      "stock": 8
+    },
+    {
+      "id": 658,
+      "product_id": 30,
+      "color": "noir",
+      "size": 41,
+      "stock": 19
+    },
+    {
+      "id": 659,
+      "product_id": 30,
+      "color": "blanc",
+      "size": 41,
+      "stock": 20
+    },
+    {
+      "id": 660,
+      "product_id": 30,
+      "color": "rouge",
+      "size": 41,
+      "stock": 15
+    },
+    {
+      "id": 661,
+      "product_id": 30,
+      "color": "noir",
+      "size": 42,
+      "stock": 5
+    },
+    {
+      "id": 662,
+      "product_id": 30,
+      "color": "blanc",
+      "size": 42,
+      "stock": 11
+    },
+    {
+      "id": 663,
+      "product_id": 30,
+      "color": "rouge",
+      "size": 42,
+      "stock": 15
+    },
+    {
+      "id": 664,
+      "product_id": 31,
+      "color": "noir",
+      "size": 40,
+      "stock": 16
+    },
+    {
+      "id": 665,
+      "product_id": 31,
+      "color": "blanc",
+      "size": 40,
+      "stock": 18
+    },
+    {
+      "id": 666,
+      "product_id": 31,
+      "color": "rouge",
+      "size": 40,
+      "stock": 15
+    },
+    {
+      "id": 667,
+      "product_id": 31,
+      "color": "noir",
+      "size": 41,
+      "stock": 6
+    },
+    {
+      "id": 668,
+      "product_id": 31,
+      "color": "blanc",
+      "size": 41,
+      "stock": 14
+    },
+    {
+      "id": 669,
+      "product_id": 31,
+      "color": "rouge",
+      "size": 41,
+      "stock": 9
+    },
+    {
+      "id": 670,
+      "product_id": 31,
+      "color": "noir",
+      "size": 42,
+      "stock": 17
+    },
+    {
+      "id": 671,
+      "product_id": 31,
+      "color": "blanc",
+      "size": 42,
+      "stock": 6
+    },
+    {
+      "id": 672,
+      "product_id": 31,
+      "color": "rouge",
+      "size": 42,
+      "stock": 15
+    },
+    {
+      "id": 673,
+      "product_id": 31,
+      "color": "noir",
+      "size": 43,
+      "stock": 6
+    },
+    {
+      "id": 674,
+      "product_id": 31,
+      "color": "blanc",
+      "size": 43,
+      "stock": 11
+    },
+    {
+      "id": 675,
+      "product_id": 31,
+      "color": "rouge",
+      "size": 43,
+      "stock": 18
+    },
+    {
+      "id": 676,
+      "product_id": 31,
+      "color": "noir",
+      "size": 44,
+      "stock": 7
+    },
+    {
+      "id": 677,
+      "product_id": 31,
+      "color": "blanc",
+      "size": 44,
+      "stock": 10
+    },
+    {
+      "id": 678,
+      "product_id": 31,
+      "color": "rouge",
+      "size": 44,
+      "stock": 8
+    },
+    {
+      "id": 679,
+      "product_id": 31,
+      "color": "noir",
+      "size": 45,
+      "stock": 13
+    },
+    {
+      "id": 680,
+      "product_id": 31,
+      "color": "blanc",
+      "size": 45,
+      "stock": 19
+    },
+    {
+      "id": 681,
+      "product_id": 31,
+      "color": "rouge",
+      "size": 45,
+      "stock": 5
+    },
+    {
+      "id": 682,
+      "product_id": 31,
+      "color": "noir",
+      "size": 46,
+      "stock": 10
+    },
+    {
+      "id": 683,
+      "product_id": 31,
+      "color": "blanc",
+      "size": 46,
+      "stock": 7
+    },
+    {
+      "id": 684,
+      "product_id": 31,
+      "color": "rouge",
+      "size": 46,
+      "stock": 12
+    },
+    {
+      "id": 685,
+      "product_id": 32,
+      "color": "noir",
+      "size": 28,
+      "stock": 5
+    },
+    {
+      "id": 686,
+      "product_id": 32,
+      "color": "blanc",
+      "size": 28,
+      "stock": 14
+    },
+    {
+      "id": 687,
+      "product_id": 32,
+      "color": "rouge",
+      "size": 28,
+      "stock": 19
+    },
+    {
+      "id": 688,
+      "product_id": 32,
+      "color": "noir",
+      "size": 29,
+      "stock": 17
+    },
+    {
+      "id": 689,
+      "product_id": 32,
+      "color": "blanc",
+      "size": 29,
+      "stock": 11
+    },
+    {
+      "id": 690,
+      "product_id": 32,
+      "color": "rouge",
+      "size": 29,
+      "stock": 8
+    },
+    {
+      "id": 691,
+      "product_id": 32,
+      "color": "noir",
+      "size": 30,
+      "stock": 19
+    },
+    {
+      "id": 692,
+      "product_id": 32,
+      "color": "blanc",
+      "size": 30,
+      "stock": 20
+    },
+    {
+      "id": 693,
+      "product_id": 32,
+      "color": "rouge",
+      "size": 30,
+      "stock": 15
+    },
+    {
+      "id": 694,
+      "product_id": 32,
+      "color": "noir",
+      "size": 31,
+      "stock": 6
+    },
+    {
+      "id": 695,
+      "product_id": 32,
+      "color": "blanc",
+      "size": 31,
+      "stock": 20
+    },
+    {
+      "id": 696,
+      "product_id": 32,
+      "color": "rouge",
+      "size": 31,
+      "stock": 12
+    },
+    {
+      "id": 697,
+      "product_id": 32,
+      "color": "noir",
+      "size": 32,
+      "stock": 10
+    },
+    {
+      "id": 698,
+      "product_id": 32,
+      "color": "blanc",
+      "size": 32,
+      "stock": 20
+    },
+    {
+      "id": 699,
+      "product_id": 32,
+      "color": "rouge",
+      "size": 32,
+      "stock": 12
+    },
+    {
+      "id": 700,
+      "product_id": 32,
+      "color": "noir",
+      "size": 33,
+      "stock": 11
+    },
+    {
+      "id": 701,
+      "product_id": 32,
+      "color": "blanc",
+      "size": 33,
+      "stock": 13
+    },
+    {
+      "id": 702,
+      "product_id": 32,
+      "color": "rouge",
+      "size": 33,
+      "stock": 11
+    },
+    {
+      "id": 703,
+      "product_id": 32,
+      "color": "noir",
+      "size": 34,
+      "stock": 14
+    },
+    {
+      "id": 704,
+      "product_id": 32,
+      "color": "blanc",
+      "size": 34,
+      "stock": 17
+    },
+    {
+      "id": 705,
+      "product_id": 32,
+      "color": "rouge",
+      "size": 34,
+      "stock": 10
+    },
+    {
+      "id": 706,
+      "product_id": 32,
+      "color": "noir",
+      "size": 35,
+      "stock": 10
+    },
+    {
+      "id": 707,
+      "product_id": 32,
+      "color": "blanc",
+      "size": 35,
+      "stock": 5
+    },
+    {
+      "id": 708,
+      "product_id": 32,
+      "color": "rouge",
+      "size": 35,
+      "stock": 10
+    },
+    {
+      "id": 709,
+      "product_id": 33,
+      "color": "noir",
+      "size": 40,
+      "stock": 8
+    },
+    {
+      "id": 710,
+      "product_id": 33,
+      "color": "blanc",
+      "size": 40,
+      "stock": 15
+    },
+    {
+      "id": 711,
+      "product_id": 33,
+      "color": "rouge",
+      "size": 40,
+      "stock": 17
+    },
+    {
+      "id": 712,
+      "product_id": 33,
+      "color": "noir",
+      "size": 41,
+      "stock": 12
+    },
+    {
+      "id": 713,
+      "product_id": 33,
+      "color": "blanc",
+      "size": 41,
+      "stock": 12
+    },
+    {
+      "id": 714,
+      "product_id": 33,
+      "color": "rouge",
+      "size": 41,
+      "stock": 6
+    },
+    {
+      "id": 715,
+      "product_id": 33,
+      "color": "noir",
+      "size": 42,
+      "stock": 20
+    },
+    {
+      "id": 716,
+      "product_id": 33,
+      "color": "blanc",
+      "size": 42,
+      "stock": 13
+    },
+    {
+      "id": 717,
+      "product_id": 33,
+      "color": "rouge",
+      "size": 42,
+      "stock": 15
+    },
+    {
+      "id": 718,
+      "product_id": 33,
+      "color": "noir",
+      "size": 43,
+      "stock": 15
+    },
+    {
+      "id": 719,
+      "product_id": 33,
+      "color": "blanc",
+      "size": 43,
+      "stock": 17
+    },
+    {
+      "id": 720,
+      "product_id": 33,
+      "color": "rouge",
+      "size": 43,
+      "stock": 5
+    },
+    {
+      "id": 721,
+      "product_id": 33,
+      "color": "noir",
+      "size": 44,
+      "stock": 11
+    },
+    {
+      "id": 722,
+      "product_id": 33,
+      "color": "blanc",
+      "size": 44,
+      "stock": 19
+    },
+    {
+      "id": 723,
+      "product_id": 33,
+      "color": "rouge",
+      "size": 44,
+      "stock": 10
+    },
+    {
+      "id": 724,
+      "product_id": 33,
+      "color": "noir",
+      "size": 45,
+      "stock": 7
+    },
+    {
+      "id": 725,
+      "product_id": 33,
+      "color": "blanc",
+      "size": 45,
+      "stock": 10
+    },
+    {
+      "id": 726,
+      "product_id": 33,
+      "color": "rouge",
+      "size": 45,
+      "stock": 6
+    },
+    {
+      "id": 727,
+      "product_id": 33,
+      "color": "noir",
+      "size": 46,
+      "stock": 13
+    },
+    {
+      "id": 728,
+      "product_id": 33,
+      "color": "blanc",
+      "size": 46,
+      "stock": 15
+    },
+    {
+      "id": 729,
+      "product_id": 33,
+      "color": "rouge",
+      "size": 46,
+      "stock": 15
+    },
+    {
+      "id": 730,
+      "product_id": 34,
+      "color": "noir",
+      "size": 28,
+      "stock": 13
+    },
+    {
+      "id": 731,
+      "product_id": 34,
+      "color": "blanc",
+      "size": 28,
+      "stock": 13
+    },
+    {
+      "id": 732,
+      "product_id": 34,
+      "color": "rouge",
+      "size": 28,
+      "stock": 9
+    },
+    {
+      "id": 733,
+      "product_id": 34,
+      "color": "noir",
+      "size": 29,
+      "stock": 18
+    },
+    {
+      "id": 734,
+      "product_id": 34,
+      "color": "blanc",
+      "size": 29,
+      "stock": 18
+    },
+    {
+      "id": 735,
+      "product_id": 34,
+      "color": "rouge",
+      "size": 29,
+      "stock": 10
+    },
+    {
+      "id": 736,
+      "product_id": 34,
+      "color": "noir",
+      "size": 30,
+      "stock": 16
+    },
+    {
+      "id": 737,
+      "product_id": 34,
+      "color": "blanc",
+      "size": 30,
+      "stock": 16
+    },
+    {
+      "id": 738,
+      "product_id": 34,
+      "color": "rouge",
+      "size": 30,
+      "stock": 9
+    },
+    {
+      "id": 739,
+      "product_id": 34,
+      "color": "noir",
+      "size": 31,
+      "stock": 9
+    },
+    {
+      "id": 740,
+      "product_id": 34,
+      "color": "blanc",
+      "size": 31,
+      "stock": 16
+    },
+    {
+      "id": 741,
+      "product_id": 34,
+      "color": "rouge",
+      "size": 31,
+      "stock": 20
+    },
+    {
+      "id": 742,
+      "product_id": 34,
+      "color": "noir",
+      "size": 32,
+      "stock": 19
+    },
+    {
+      "id": 743,
+      "product_id": 34,
+      "color": "blanc",
+      "size": 32,
+      "stock": 12
+    },
+    {
+      "id": 744,
+      "product_id": 34,
+      "color": "rouge",
+      "size": 32,
+      "stock": 10
+    },
+    {
+      "id": 745,
+      "product_id": 34,
+      "color": "noir",
+      "size": 33,
+      "stock": 14
+    },
+    {
+      "id": 746,
+      "product_id": 34,
+      "color": "blanc",
+      "size": 33,
+      "stock": 16
+    },
+    {
+      "id": 747,
+      "product_id": 34,
+      "color": "rouge",
+      "size": 33,
+      "stock": 9
+    },
+    {
+      "id": 748,
+      "product_id": 34,
+      "color": "noir",
+      "size": 34,
+      "stock": 7
+    },
+    {
+      "id": 749,
+      "product_id": 34,
+      "color": "blanc",
+      "size": 34,
+      "stock": 18
+    },
+    {
+      "id": 750,
+      "product_id": 34,
+      "color": "rouge",
+      "size": 34,
+      "stock": 10
+    },
+    {
+      "id": 751,
+      "product_id": 34,
+      "color": "noir",
+      "size": 35,
+      "stock": 12
+    },
+    {
+      "id": 752,
+      "product_id": 34,
+      "color": "blanc",
+      "size": 35,
+      "stock": 12
+    },
+    {
+      "id": 753,
+      "product_id": 34,
+      "color": "rouge",
+      "size": 35,
+      "stock": 20
+    },
+    {
+      "id": 754,
+      "product_id": 35,
+      "color": "noir",
+      "size": 40,
+      "stock": 14
+    },
+    {
+      "id": 755,
+      "product_id": 35,
+      "color": "blanc",
+      "size": 40,
+      "stock": 18
+    },
+    {
+      "id": 756,
+      "product_id": 35,
+      "color": "rouge",
+      "size": 40,
+      "stock": 5
+    },
+    {
+      "id": 757,
+      "product_id": 35,
+      "color": "noir",
+      "size": 41,
+      "stock": 8
+    },
+    {
+      "id": 758,
+      "product_id": 35,
+      "color": "blanc",
+      "size": 41,
+      "stock": 11
+    },
+    {
+      "id": 759,
+      "product_id": 35,
+      "color": "rouge",
+      "size": 41,
+      "stock": 9
+    },
+    {
+      "id": 760,
+      "product_id": 35,
+      "color": "noir",
+      "size": 42,
+      "stock": 6
+    },
+    {
+      "id": 761,
+      "product_id": 35,
+      "color": "blanc",
+      "size": 42,
+      "stock": 6
+    },
+    {
+      "id": 762,
+      "product_id": 35,
+      "color": "rouge",
+      "size": 42,
+      "stock": 10
+    },
+    {
+      "id": 763,
+      "product_id": 35,
+      "color": "noir",
+      "size": 43,
+      "stock": 11
+    },
+    {
+      "id": 764,
+      "product_id": 35,
+      "color": "blanc",
+      "size": 43,
+      "stock": 11
+    },
+    {
+      "id": 765,
+      "product_id": 35,
+      "color": "rouge",
+      "size": 43,
+      "stock": 20
+    },
+    {
+      "id": 766,
+      "product_id": 35,
+      "color": "noir",
+      "size": 44,
+      "stock": 9
+    },
+    {
+      "id": 767,
+      "product_id": 35,
+      "color": "blanc",
+      "size": 44,
+      "stock": 11
+    },
+    {
+      "id": 768,
+      "product_id": 35,
+      "color": "rouge",
+      "size": 44,
+      "stock": 19
+    },
+    {
+      "id": 769,
+      "product_id": 35,
+      "color": "noir",
+      "size": 45,
+      "stock": 8
+    },
+    {
+      "id": 770,
+      "product_id": 35,
+      "color": "blanc",
+      "size": 45,
+      "stock": 17
+    },
+    {
+      "id": 771,
+      "product_id": 35,
+      "color": "rouge",
+      "size": 45,
+      "stock": 10
+    },
+    {
+      "id": 772,
+      "product_id": 35,
+      "color": "noir",
+      "size": 46,
+      "stock": 10
+    },
+    {
+      "id": 773,
+      "product_id": 35,
+      "color": "blanc",
+      "size": 46,
+      "stock": 19
+    },
+    {
+      "id": 774,
+      "product_id": 35,
+      "color": "rouge",
+      "size": 46,
+      "stock": 20
+    },
+    {
+      "id": 775,
+      "product_id": 36,
+      "color": "noir",
+      "size": 40,
+      "stock": 16
+    },
+    {
+      "id": 776,
+      "product_id": 36,
+      "color": "blanc",
+      "size": 40,
+      "stock": 14
+    },
+    {
+      "id": 777,
+      "product_id": 36,
+      "color": "rouge",
+      "size": 40,
+      "stock": 13
+    },
+    {
+      "id": 778,
+      "product_id": 36,
+      "color": "noir",
+      "size": 41,
+      "stock": 5
+    },
+    {
+      "id": 779,
+      "product_id": 36,
+      "color": "blanc",
+      "size": 41,
+      "stock": 11
+    },
+    {
+      "id": 780,
+      "product_id": 36,
+      "color": "rouge",
+      "size": 41,
+      "stock": 9
+    },
+    {
+      "id": 781,
+      "product_id": 36,
+      "color": "noir",
+      "size": 42,
+      "stock": 7
+    },
+    {
+      "id": 782,
+      "product_id": 36,
+      "color": "blanc",
+      "size": 42,
+      "stock": 18
+    },
+    {
+      "id": 783,
+      "product_id": 36,
+      "color": "rouge",
+      "size": 42,
+      "stock": 10
+    },
+    {
+      "id": 784,
+      "product_id": 36,
+      "color": "noir",
+      "size": 43,
+      "stock": 19
+    },
+    {
+      "id": 785,
+      "product_id": 36,
+      "color": "blanc",
+      "size": 43,
+      "stock": 15
+    },
+    {
+      "id": 786,
+      "product_id": 36,
+      "color": "rouge",
+      "size": 43,
+      "stock": 10
+    },
+    {
+      "id": 787,
+      "product_id": 36,
+      "color": "noir",
+      "size": 44,
+      "stock": 9
+    },
+    {
+      "id": 788,
+      "product_id": 36,
+      "color": "blanc",
+      "size": 44,
+      "stock": 7
+    },
+    {
+      "id": 789,
+      "product_id": 36,
+      "color": "rouge",
+      "size": 44,
+      "stock": 17
+    },
+    {
+      "id": 790,
+      "product_id": 36,
+      "color": "noir",
+      "size": 45,
+      "stock": 16
+    },
+    {
+      "id": 791,
+      "product_id": 36,
+      "color": "blanc",
+      "size": 45,
+      "stock": 14
+    },
+    {
+      "id": 792,
+      "product_id": 36,
+      "color": "rouge",
+      "size": 45,
+      "stock": 9
+    },
+    {
+      "id": 793,
+      "product_id": 36,
+      "color": "noir",
+      "size": 46,
+      "stock": 15
+    },
+    {
+      "id": 794,
+      "product_id": 36,
+      "color": "blanc",
+      "size": 46,
+      "stock": 20
+    },
+    {
+      "id": 795,
+      "product_id": 36,
+      "color": "rouge",
+      "size": 46,
+      "stock": 8
+    },
+    {
+      "id": 796,
+      "product_id": 37,
+      "color": "noir",
+      "size": 40,
+      "stock": 18
+    },
+    {
+      "id": 797,
+      "product_id": 37,
+      "color": "blanc",
+      "size": 40,
+      "stock": 15
+    },
+    {
+      "id": 798,
+      "product_id": 37,
+      "color": "rouge",
+      "size": 40,
+      "stock": 9
+    },
+    {
+      "id": 799,
+      "product_id": 37,
+      "color": "noir",
+      "size": 41,
+      "stock": 14
+    },
+    {
+      "id": 800,
+      "product_id": 37,
+      "color": "blanc",
+      "size": 41,
+      "stock": 11
+    },
+    {
+      "id": 801,
+      "product_id": 37,
+      "color": "rouge",
+      "size": 41,
+      "stock": 20
+    },
+    {
+      "id": 802,
+      "product_id": 37,
+      "color": "noir",
+      "size": 42,
+      "stock": 6
+    },
+    {
+      "id": 803,
+      "product_id": 37,
+      "color": "blanc",
+      "size": 42,
+      "stock": 15
+    },
+    {
+      "id": 804,
+      "product_id": 37,
+      "color": "rouge",
+      "size": 42,
+      "stock": 10
+    },
+    {
+      "id": 805,
+      "product_id": 37,
+      "color": "noir",
+      "size": 43,
+      "stock": 7
+    },
+    {
+      "id": 806,
+      "product_id": 37,
+      "color": "blanc",
+      "size": 43,
+      "stock": 11
+    },
+    {
+      "id": 807,
+      "product_id": 37,
+      "color": "rouge",
+      "size": 43,
+      "stock": 20
+    },
+    {
+      "id": 808,
+      "product_id": 37,
+      "color": "noir",
+      "size": 44,
+      "stock": 6
+    },
+    {
+      "id": 809,
+      "product_id": 37,
+      "color": "blanc",
+      "size": 44,
+      "stock": 5
+    },
+    {
+      "id": 810,
+      "product_id": 37,
+      "color": "rouge",
+      "size": 44,
+      "stock": 17
+    },
+    {
+      "id": 811,
+      "product_id": 37,
+      "color": "noir",
+      "size": 45,
+      "stock": 19
+    },
+    {
+      "id": 812,
+      "product_id": 37,
+      "color": "blanc",
+      "size": 45,
+      "stock": 7
+    },
+    {
+      "id": 813,
+      "product_id": 37,
+      "color": "rouge",
+      "size": 45,
+      "stock": 16
+    },
+    {
+      "id": 814,
+      "product_id": 37,
+      "color": "noir",
+      "size": 46,
+      "stock": 6
+    },
+    {
+      "id": 815,
+      "product_id": 37,
+      "color": "blanc",
+      "size": 46,
+      "stock": 20
+    },
+    {
+      "id": 816,
+      "product_id": 37,
+      "color": "rouge",
+      "size": 46,
+      "stock": 19
+    },
+    {
+      "id": 817,
+      "product_id": 38,
+      "color": "noir",
+      "size": 40,
+      "stock": 15
+    },
+    {
+      "id": 818,
+      "product_id": 38,
+      "color": "blanc",
+      "size": 40,
+      "stock": 9
+    },
+    {
+      "id": 819,
+      "product_id": 38,
+      "color": "rouge",
+      "size": 40,
+      "stock": 14
+    },
+    {
+      "id": 820,
+      "product_id": 38,
+      "color": "noir",
+      "size": 41,
+      "stock": 6
+    },
+    {
+      "id": 821,
+      "product_id": 38,
+      "color": "blanc",
+      "size": 41,
+      "stock": 9
+    },
+    {
+      "id": 822,
+      "product_id": 38,
+      "color": "rouge",
+      "size": 41,
+      "stock": 19
+    },
+    {
+      "id": 823,
+      "product_id": 38,
+      "color": "noir",
+      "size": 42,
+      "stock": 15
+    },
+    {
+      "id": 824,
+      "product_id": 38,
+      "color": "blanc",
+      "size": 42,
+      "stock": 5
+    },
+    {
+      "id": 825,
+      "product_id": 38,
+      "color": "rouge",
+      "size": 42,
+      "stock": 18
+    },
+    {
+      "id": 826,
+      "product_id": 38,
+      "color": "noir",
+      "size": 43,
+      "stock": 10
+    },
+    {
+      "id": 827,
+      "product_id": 38,
+      "color": "blanc",
+      "size": 43,
+      "stock": 7
+    },
+    {
+      "id": 828,
+      "product_id": 38,
+      "color": "rouge",
+      "size": 43,
+      "stock": 5
+    },
+    {
+      "id": 829,
+      "product_id": 38,
+      "color": "noir",
+      "size": 44,
+      "stock": 19
+    },
+    {
+      "id": 830,
+      "product_id": 38,
+      "color": "blanc",
+      "size": 44,
+      "stock": 9
+    },
+    {
+      "id": 831,
+      "product_id": 38,
+      "color": "rouge",
+      "size": 44,
+      "stock": 13
+    },
+    {
+      "id": 832,
+      "product_id": 38,
+      "color": "noir",
+      "size": 45,
+      "stock": 13
+    },
+    {
+      "id": 833,
+      "product_id": 38,
+      "color": "blanc",
+      "size": 45,
+      "stock": 15
+    },
+    {
+      "id": 834,
+      "product_id": 38,
+      "color": "rouge",
+      "size": 45,
+      "stock": 10
+    },
+    {
+      "id": 835,
+      "product_id": 38,
+      "color": "noir",
+      "size": 46,
+      "stock": 7
+    },
+    {
+      "id": 836,
+      "product_id": 38,
+      "color": "blanc",
+      "size": 46,
+      "stock": 8
+    },
+    {
+      "id": 837,
+      "product_id": 38,
+      "color": "rouge",
+      "size": 46,
+      "stock": 18
+    },
+    {
+      "id": 838,
+      "product_id": 39,
+      "color": "noir",
+      "size": 28,
+      "stock": 20
+    },
+    {
+      "id": 839,
+      "product_id": 39,
+      "color": "blanc",
+      "size": 28,
+      "stock": 12
+    },
+    {
+      "id": 840,
+      "product_id": 39,
+      "color": "rouge",
+      "size": 28,
+      "stock": 9
+    },
+    {
+      "id": 841,
+      "product_id": 39,
+      "color": "noir",
+      "size": 29,
+      "stock": 15
+    },
+    {
+      "id": 842,
+      "product_id": 39,
+      "color": "blanc",
+      "size": 29,
+      "stock": 11
+    },
+    {
+      "id": 843,
+      "product_id": 39,
+      "color": "rouge",
+      "size": 29,
+      "stock": 13
+    },
+    {
+      "id": 844,
+      "product_id": 39,
+      "color": "noir",
+      "size": 30,
+      "stock": 5
+    },
+    {
+      "id": 845,
+      "product_id": 39,
+      "color": "blanc",
+      "size": 30,
+      "stock": 16
+    },
+    {
+      "id": 846,
+      "product_id": 39,
+      "color": "rouge",
+      "size": 30,
+      "stock": 8
+    },
+    {
+      "id": 847,
+      "product_id": 39,
+      "color": "noir",
+      "size": 31,
+      "stock": 7
+    },
+    {
+      "id": 848,
+      "product_id": 39,
+      "color": "blanc",
+      "size": 31,
+      "stock": 7
+    },
+    {
+      "id": 849,
+      "product_id": 39,
+      "color": "rouge",
+      "size": 31,
+      "stock": 11
+    },
+    {
+      "id": 850,
+      "product_id": 39,
+      "color": "noir",
+      "size": 32,
+      "stock": 8
+    },
+    {
+      "id": 851,
+      "product_id": 39,
+      "color": "blanc",
+      "size": 32,
+      "stock": 11
+    },
+    {
+      "id": 852,
+      "product_id": 39,
+      "color": "rouge",
+      "size": 32,
+      "stock": 17
+    },
+    {
+      "id": 853,
+      "product_id": 39,
+      "color": "noir",
+      "size": 33,
+      "stock": 8
+    },
+    {
+      "id": 854,
+      "product_id": 39,
+      "color": "blanc",
+      "size": 33,
+      "stock": 17
+    },
+    {
+      "id": 855,
+      "product_id": 39,
+      "color": "rouge",
+      "size": 33,
+      "stock": 5
+    },
+    {
+      "id": 856,
+      "product_id": 39,
+      "color": "noir",
+      "size": 34,
+      "stock": 9
+    },
+    {
+      "id": 857,
+      "product_id": 39,
+      "color": "blanc",
+      "size": 34,
+      "stock": 12
+    },
+    {
+      "id": 858,
+      "product_id": 39,
+      "color": "rouge",
+      "size": 34,
+      "stock": 17
+    },
+    {
+      "id": 859,
+      "product_id": 39,
+      "color": "noir",
+      "size": 35,
+      "stock": 11
+    },
+    {
+      "id": 860,
+      "product_id": 39,
+      "color": "blanc",
+      "size": 35,
+      "stock": 7
+    },
+    {
+      "id": 861,
+      "product_id": 39,
+      "color": "rouge",
+      "size": 35,
+      "stock": 16
+    },
+    {
+      "id": 862,
+      "product_id": 40,
+      "color": "noir",
+      "size": 28,
+      "stock": 7
+    },
+    {
+      "id": 863,
+      "product_id": 40,
+      "color": "blanc",
+      "size": 28,
+      "stock": 14
+    },
+    {
+      "id": 864,
+      "product_id": 40,
+      "color": "rouge",
+      "size": 28,
+      "stock": 20
+    },
+    {
+      "id": 865,
+      "product_id": 40,
+      "color": "noir",
+      "size": 29,
+      "stock": 8
+    },
+    {
+      "id": 866,
+      "product_id": 40,
+      "color": "blanc",
+      "size": 29,
+      "stock": 17
+    },
+    {
+      "id": 867,
+      "product_id": 40,
+      "color": "rouge",
+      "size": 29,
+      "stock": 12
+    },
+    {
+      "id": 868,
+      "product_id": 40,
+      "color": "noir",
+      "size": 30,
+      "stock": 15
+    },
+    {
+      "id": 869,
+      "product_id": 40,
+      "color": "blanc",
+      "size": 30,
+      "stock": 12
+    },
+    {
+      "id": 870,
+      "product_id": 40,
+      "color": "rouge",
+      "size": 30,
+      "stock": 10
+    },
+    {
+      "id": 871,
+      "product_id": 40,
+      "color": "noir",
+      "size": 31,
+      "stock": 17
+    },
+    {
+      "id": 872,
+      "product_id": 40,
+      "color": "blanc",
+      "size": 31,
+      "stock": 5
+    },
+    {
+      "id": 873,
+      "product_id": 40,
+      "color": "rouge",
+      "size": 31,
+      "stock": 6
+    },
+    {
+      "id": 874,
+      "product_id": 40,
+      "color": "noir",
+      "size": 32,
+      "stock": 5
+    },
+    {
+      "id": 875,
+      "product_id": 40,
+      "color": "blanc",
+      "size": 32,
+      "stock": 14
+    },
+    {
+      "id": 876,
+      "product_id": 40,
+      "color": "rouge",
+      "size": 32,
+      "stock": 19
+    },
+    {
+      "id": 877,
+      "product_id": 40,
+      "color": "noir",
+      "size": 33,
+      "stock": 11
+    },
+    {
+      "id": 878,
+      "product_id": 40,
+      "color": "blanc",
+      "size": 33,
+      "stock": 8
+    },
+    {
+      "id": 879,
+      "product_id": 40,
+      "color": "rouge",
+      "size": 33,
+      "stock": 6
+    },
+    {
+      "id": 880,
+      "product_id": 40,
+      "color": "noir",
+      "size": 34,
+      "stock": 5
+    },
+    {
+      "id": 881,
+      "product_id": 40,
+      "color": "blanc",
+      "size": 34,
+      "stock": 18
+    },
+    {
+      "id": 882,
+      "product_id": 40,
+      "color": "rouge",
+      "size": 34,
+      "stock": 9
+    },
+    {
+      "id": 883,
+      "product_id": 40,
+      "color": "noir",
+      "size": 35,
+      "stock": 9
+    },
+    {
+      "id": 884,
+      "product_id": 40,
+      "color": "blanc",
+      "size": 35,
+      "stock": 16
+    },
+    {
+      "id": 885,
+      "product_id": 40,
+      "color": "rouge",
+      "size": 35,
+      "stock": 15
+    },
+    {
+      "id": 886,
+      "product_id": 41,
+      "color": "noir",
+      "size": 36,
+      "stock": 6
+    },
+    {
+      "id": 887,
+      "product_id": 41,
+      "color": "blanc",
+      "size": 36,
+      "stock": 16
+    },
+    {
+      "id": 888,
+      "product_id": 41,
+      "color": "rouge",
+      "size": 36,
+      "stock": 15
+    },
+    {
+      "id": 889,
+      "product_id": 41,
+      "color": "noir",
+      "size": 37,
+      "stock": 19
+    },
+    {
+      "id": 890,
+      "product_id": 41,
+      "color": "blanc",
+      "size": 37,
+      "stock": 20
+    },
+    {
+      "id": 891,
+      "product_id": 41,
+      "color": "rouge",
+      "size": 37,
+      "stock": 13
+    },
+    {
+      "id": 892,
+      "product_id": 41,
+      "color": "noir",
+      "size": 38,
+      "stock": 7
+    },
+    {
+      "id": 893,
+      "product_id": 41,
+      "color": "blanc",
+      "size": 38,
+      "stock": 20
+    },
+    {
+      "id": 894,
+      "product_id": 41,
+      "color": "rouge",
+      "size": 38,
+      "stock": 9
+    },
+    {
+      "id": 895,
+      "product_id": 41,
+      "color": "noir",
+      "size": 39,
+      "stock": 15
+    },
+    {
+      "id": 896,
+      "product_id": 41,
+      "color": "blanc",
+      "size": 39,
+      "stock": 12
+    },
+    {
+      "id": 897,
+      "product_id": 41,
+      "color": "rouge",
+      "size": 39,
+      "stock": 18
+    },
+    {
+      "id": 898,
+      "product_id": 41,
+      "color": "noir",
+      "size": 40,
+      "stock": 10
+    },
+    {
+      "id": 899,
+      "product_id": 41,
+      "color": "blanc",
+      "size": 40,
+      "stock": 7
+    },
+    {
+      "id": 900,
+      "product_id": 41,
+      "color": "rouge",
+      "size": 40,
+      "stock": 14
+    },
+    {
+      "id": 901,
+      "product_id": 41,
+      "color": "noir",
+      "size": 41,
+      "stock": 6
+    },
+    {
+      "id": 902,
+      "product_id": 41,
+      "color": "blanc",
+      "size": 41,
+      "stock": 5
+    },
+    {
+      "id": 903,
+      "product_id": 41,
+      "color": "rouge",
+      "size": 41,
+      "stock": 6
+    },
+    {
+      "id": 904,
+      "product_id": 41,
+      "color": "noir",
+      "size": 42,
+      "stock": 10
+    },
+    {
+      "id": 905,
+      "product_id": 41,
+      "color": "blanc",
+      "size": 42,
+      "stock": 17
+    },
+    {
+      "id": 906,
+      "product_id": 41,
+      "color": "rouge",
+      "size": 42,
+      "stock": 17
+    },
+    {
+      "id": 907,
+      "product_id": 42,
+      "color": "noir",
+      "size": 40,
+      "stock": 8
+    },
+    {
+      "id": 908,
+      "product_id": 42,
+      "color": "blanc",
+      "size": 40,
+      "stock": 17
+    },
+    {
+      "id": 909,
+      "product_id": 42,
+      "color": "rouge",
+      "size": 40,
+      "stock": 6
+    },
+    {
+      "id": 910,
+      "product_id": 42,
+      "color": "noir",
+      "size": 41,
+      "stock": 17
+    },
+    {
+      "id": 911,
+      "product_id": 42,
+      "color": "blanc",
+      "size": 41,
+      "stock": 11
+    },
+    {
+      "id": 912,
+      "product_id": 42,
+      "color": "rouge",
+      "size": 41,
+      "stock": 9
+    },
+    {
+      "id": 913,
+      "product_id": 42,
+      "color": "noir",
+      "size": 42,
+      "stock": 6
+    },
+    {
+      "id": 914,
+      "product_id": 42,
+      "color": "blanc",
+      "size": 42,
+      "stock": 10
+    },
+    {
+      "id": 915,
+      "product_id": 42,
+      "color": "rouge",
+      "size": 42,
+      "stock": 19
+    },
+    {
+      "id": 916,
+      "product_id": 42,
+      "color": "noir",
+      "size": 43,
+      "stock": 8
+    },
+    {
+      "id": 917,
+      "product_id": 42,
+      "color": "blanc",
+      "size": 43,
+      "stock": 16
+    },
+    {
+      "id": 918,
+      "product_id": 42,
+      "color": "rouge",
+      "size": 43,
+      "stock": 9
+    },
+    {
+      "id": 919,
+      "product_id": 42,
+      "color": "noir",
+      "size": 44,
+      "stock": 7
+    },
+    {
+      "id": 920,
+      "product_id": 42,
+      "color": "blanc",
+      "size": 44,
+      "stock": 9
+    },
+    {
+      "id": 921,
+      "product_id": 42,
+      "color": "rouge",
+      "size": 44,
+      "stock": 7
+    },
+    {
+      "id": 922,
+      "product_id": 42,
+      "color": "noir",
+      "size": 45,
+      "stock": 16
+    },
+    {
+      "id": 923,
+      "product_id": 42,
+      "color": "blanc",
+      "size": 45,
+      "stock": 11
+    },
+    {
+      "id": 924,
+      "product_id": 42,
+      "color": "rouge",
+      "size": 45,
+      "stock": 6
+    },
+    {
+      "id": 925,
+      "product_id": 42,
+      "color": "noir",
+      "size": 46,
+      "stock": 19
+    },
+    {
+      "id": 926,
+      "product_id": 42,
+      "color": "blanc",
+      "size": 46,
+      "stock": 6
+    },
+    {
+      "id": 927,
+      "product_id": 42,
+      "color": "rouge",
+      "size": 46,
+      "stock": 17
+    },
+    {
+      "id": 928,
+      "product_id": 43,
+      "color": "noir",
+      "size": 28,
+      "stock": 16
+    },
+    {
+      "id": 929,
+      "product_id": 43,
+      "color": "blanc",
+      "size": 28,
+      "stock": 5
+    },
+    {
+      "id": 930,
+      "product_id": 43,
+      "color": "rouge",
+      "size": 28,
+      "stock": 18
+    },
+    {
+      "id": 931,
+      "product_id": 43,
+      "color": "noir",
+      "size": 29,
+      "stock": 18
+    },
+    {
+      "id": 932,
+      "product_id": 43,
+      "color": "blanc",
+      "size": 29,
+      "stock": 18
+    },
+    {
+      "id": 933,
+      "product_id": 43,
+      "color": "rouge",
+      "size": 29,
+      "stock": 5
+    },
+    {
+      "id": 934,
+      "product_id": 43,
+      "color": "noir",
+      "size": 30,
+      "stock": 20
+    },
+    {
+      "id": 935,
+      "product_id": 43,
+      "color": "blanc",
+      "size": 30,
+      "stock": 17
+    },
+    {
+      "id": 936,
+      "product_id": 43,
+      "color": "rouge",
+      "size": 30,
+      "stock": 12
+    },
+    {
+      "id": 937,
+      "product_id": 43,
+      "color": "noir",
+      "size": 31,
+      "stock": 18
+    },
+    {
+      "id": 938,
+      "product_id": 43,
+      "color": "blanc",
+      "size": 31,
+      "stock": 10
+    },
+    {
+      "id": 939,
+      "product_id": 43,
+      "color": "rouge",
+      "size": 31,
+      "stock": 15
+    },
+    {
+      "id": 940,
+      "product_id": 43,
+      "color": "noir",
+      "size": 32,
+      "stock": 5
+    },
+    {
+      "id": 941,
+      "product_id": 43,
+      "color": "blanc",
+      "size": 32,
+      "stock": 16
+    },
+    {
+      "id": 942,
+      "product_id": 43,
+      "color": "rouge",
+      "size": 32,
+      "stock": 15
+    },
+    {
+      "id": 943,
+      "product_id": 43,
+      "color": "noir",
+      "size": 33,
+      "stock": 6
+    },
+    {
+      "id": 944,
+      "product_id": 43,
+      "color": "blanc",
+      "size": 33,
+      "stock": 11
+    },
+    {
+      "id": 945,
+      "product_id": 43,
+      "color": "rouge",
+      "size": 33,
+      "stock": 13
+    },
+    {
+      "id": 946,
+      "product_id": 43,
+      "color": "noir",
+      "size": 34,
+      "stock": 6
+    },
+    {
+      "id": 947,
+      "product_id": 43,
+      "color": "blanc",
+      "size": 34,
+      "stock": 9
+    },
+    {
+      "id": 948,
+      "product_id": 43,
+      "color": "rouge",
+      "size": 34,
+      "stock": 15
+    },
+    {
+      "id": 949,
+      "product_id": 43,
+      "color": "noir",
+      "size": 35,
+      "stock": 5
+    },
+    {
+      "id": 950,
+      "product_id": 43,
+      "color": "blanc",
+      "size": 35,
+      "stock": 18
+    },
+    {
+      "id": 951,
+      "product_id": 43,
+      "color": "rouge",
+      "size": 35,
+      "stock": 11
+    },
+    {
+      "id": 952,
+      "product_id": 44,
+      "color": "noir",
+      "size": 28,
+      "stock": 12
+    },
+    {
+      "id": 953,
+      "product_id": 44,
+      "color": "blanc",
+      "size": 28,
+      "stock": 20
+    },
+    {
+      "id": 954,
+      "product_id": 44,
+      "color": "rouge",
+      "size": 28,
+      "stock": 19
+    },
+    {
+      "id": 955,
+      "product_id": 44,
+      "color": "noir",
+      "size": 29,
+      "stock": 18
+    },
+    {
+      "id": 956,
+      "product_id": 44,
+      "color": "blanc",
+      "size": 29,
+      "stock": 18
+    },
+    {
+      "id": 957,
+      "product_id": 44,
+      "color": "rouge",
+      "size": 29,
+      "stock": 9
+    },
+    {
+      "id": 958,
+      "product_id": 44,
+      "color": "noir",
+      "size": 30,
+      "stock": 13
+    },
+    {
+      "id": 959,
+      "product_id": 44,
+      "color": "blanc",
+      "size": 30,
+      "stock": 13
+    },
+    {
+      "id": 960,
+      "product_id": 44,
+      "color": "rouge",
+      "size": 30,
+      "stock": 7
+    },
+    {
+      "id": 961,
+      "product_id": 44,
+      "color": "noir",
+      "size": 31,
+      "stock": 5
+    },
+    {
+      "id": 962,
+      "product_id": 44,
+      "color": "blanc",
+      "size": 31,
+      "stock": 18
+    },
+    {
+      "id": 963,
+      "product_id": 44,
+      "color": "rouge",
+      "size": 31,
+      "stock": 16
+    },
+    {
+      "id": 964,
+      "product_id": 44,
+      "color": "noir",
+      "size": 32,
+      "stock": 5
+    },
+    {
+      "id": 965,
+      "product_id": 44,
+      "color": "blanc",
+      "size": 32,
+      "stock": 14
+    },
+    {
+      "id": 966,
+      "product_id": 44,
+      "color": "rouge",
+      "size": 32,
+      "stock": 12
+    },
+    {
+      "id": 967,
+      "product_id": 44,
+      "color": "noir",
+      "size": 33,
+      "stock": 6
+    },
+    {
+      "id": 968,
+      "product_id": 44,
+      "color": "blanc",
+      "size": 33,
+      "stock": 14
+    },
+    {
+      "id": 969,
+      "product_id": 44,
+      "color": "rouge",
+      "size": 33,
+      "stock": 16
+    },
+    {
+      "id": 970,
+      "product_id": 44,
+      "color": "noir",
+      "size": 34,
+      "stock": 8
+    },
+    {
+      "id": 971,
+      "product_id": 44,
+      "color": "blanc",
+      "size": 34,
+      "stock": 7
+    },
+    {
+      "id": 972,
+      "product_id": 44,
+      "color": "rouge",
+      "size": 34,
+      "stock": 16
+    },
+    {
+      "id": 973,
+      "product_id": 44,
+      "color": "noir",
+      "size": 35,
+      "stock": 19
+    },
+    {
+      "id": 974,
+      "product_id": 44,
+      "color": "blanc",
+      "size": 35,
+      "stock": 14
+    },
+    {
+      "id": 975,
+      "product_id": 44,
+      "color": "rouge",
+      "size": 35,
+      "stock": 12
+    },
+    {
+      "id": 976,
+      "product_id": 45,
+      "color": "noir",
+      "size": 40,
+      "stock": 20
+    },
+    {
+      "id": 977,
+      "product_id": 45,
+      "color": "blanc",
+      "size": 40,
+      "stock": 8
+    },
+    {
+      "id": 978,
+      "product_id": 45,
+      "color": "rouge",
+      "size": 40,
+      "stock": 13
+    },
+    {
+      "id": 979,
+      "product_id": 45,
+      "color": "noir",
+      "size": 41,
+      "stock": 7
+    },
+    {
+      "id": 980,
+      "product_id": 45,
+      "color": "blanc",
+      "size": 41,
+      "stock": 7
+    },
+    {
+      "id": 981,
+      "product_id": 45,
+      "color": "rouge",
+      "size": 41,
+      "stock": 19
+    },
+    {
+      "id": 982,
+      "product_id": 45,
+      "color": "noir",
+      "size": 42,
+      "stock": 5
+    },
+    {
+      "id": 983,
+      "product_id": 45,
+      "color": "blanc",
+      "size": 42,
+      "stock": 6
+    },
+    {
+      "id": 984,
+      "product_id": 45,
+      "color": "rouge",
+      "size": 42,
+      "stock": 11
+    },
+    {
+      "id": 985,
+      "product_id": 45,
+      "color": "noir",
+      "size": 43,
+      "stock": 6
+    },
+    {
+      "id": 986,
+      "product_id": 45,
+      "color": "blanc",
+      "size": 43,
+      "stock": 6
+    },
+    {
+      "id": 987,
+      "product_id": 45,
+      "color": "rouge",
+      "size": 43,
+      "stock": 9
+    },
+    {
+      "id": 988,
+      "product_id": 45,
+      "color": "noir",
+      "size": 44,
+      "stock": 11
+    },
+    {
+      "id": 989,
+      "product_id": 45,
+      "color": "blanc",
+      "size": 44,
+      "stock": 5
+    },
+    {
+      "id": 990,
+      "product_id": 45,
+      "color": "rouge",
+      "size": 44,
+      "stock": 16
+    },
+    {
+      "id": 991,
+      "product_id": 45,
+      "color": "noir",
+      "size": 45,
+      "stock": 5
+    },
+    {
+      "id": 992,
+      "product_id": 45,
+      "color": "blanc",
+      "size": 45,
+      "stock": 8
+    },
+    {
+      "id": 993,
+      "product_id": 45,
+      "color": "rouge",
+      "size": 45,
+      "stock": 6
+    },
+    {
+      "id": 994,
+      "product_id": 45,
+      "color": "noir",
+      "size": 46,
+      "stock": 6
+    },
+    {
+      "id": 995,
+      "product_id": 45,
+      "color": "blanc",
+      "size": 46,
+      "stock": 12
+    },
+    {
+      "id": 996,
+      "product_id": 45,
+      "color": "rouge",
+      "size": 46,
+      "stock": 18
+    },
+    {
+      "id": 997,
+      "product_id": 46,
+      "color": "noir",
+      "size": 36,
+      "stock": 16
+    },
+    {
+      "id": 998,
+      "product_id": 46,
+      "color": "blanc",
+      "size": 36,
+      "stock": 19
+    },
+    {
+      "id": 999,
+      "product_id": 46,
+      "color": "rouge",
+      "size": 36,
+      "stock": 13
+    },
+    {
+      "id": 1000,
+      "product_id": 46,
+      "color": "noir",
+      "size": 37,
+      "stock": 15
+    },
+    {
+      "id": 1001,
+      "product_id": 46,
+      "color": "blanc",
+      "size": 37,
+      "stock": 14
+    },
+    {
+      "id": 1002,
+      "product_id": 46,
+      "color": "rouge",
+      "size": 37,
+      "stock": 18
+    },
+    {
+      "id": 1003,
+      "product_id": 46,
+      "color": "noir",
+      "size": 38,
+      "stock": 9
+    },
+    {
+      "id": 1004,
+      "product_id": 46,
+      "color": "blanc",
+      "size": 38,
+      "stock": 11
+    },
+    {
+      "id": 1005,
+      "product_id": 46,
+      "color": "rouge",
+      "size": 38,
+      "stock": 8
+    },
+    {
+      "id": 1006,
+      "product_id": 46,
+      "color": "noir",
+      "size": 39,
+      "stock": 8
+    },
+    {
+      "id": 1007,
+      "product_id": 46,
+      "color": "blanc",
+      "size": 39,
+      "stock": 6
+    },
+    {
+      "id": 1008,
+      "product_id": 46,
+      "color": "rouge",
+      "size": 39,
+      "stock": 12
+    },
+    {
+      "id": 1009,
+      "product_id": 46,
+      "color": "noir",
+      "size": 40,
+      "stock": 6
+    },
+    {
+      "id": 1010,
+      "product_id": 46,
+      "color": "blanc",
+      "size": 40,
+      "stock": 12
+    },
+    {
+      "id": 1011,
+      "product_id": 46,
+      "color": "rouge",
+      "size": 40,
+      "stock": 13
+    },
+    {
+      "id": 1012,
+      "product_id": 46,
+      "color": "noir",
+      "size": 41,
+      "stock": 9
+    },
+    {
+      "id": 1013,
+      "product_id": 46,
+      "color": "blanc",
+      "size": 41,
+      "stock": 5
+    },
+    {
+      "id": 1014,
+      "product_id": 46,
+      "color": "rouge",
+      "size": 41,
+      "stock": 20
+    },
+    {
+      "id": 1015,
+      "product_id": 46,
+      "color": "noir",
+      "size": 42,
+      "stock": 15
+    },
+    {
+      "id": 1016,
+      "product_id": 46,
+      "color": "blanc",
+      "size": 42,
+      "stock": 6
+    },
+    {
+      "id": 1017,
+      "product_id": 46,
+      "color": "rouge",
+      "size": 42,
+      "stock": 16
+    },
+    {
+      "id": 1018,
+      "product_id": 47,
+      "color": "noir",
+      "size": 36,
+      "stock": 12
+    },
+    {
+      "id": 1019,
+      "product_id": 47,
+      "color": "blanc",
+      "size": 36,
+      "stock": 17
+    },
+    {
+      "id": 1020,
+      "product_id": 47,
+      "color": "rouge",
+      "size": 36,
+      "stock": 16
+    },
+    {
+      "id": 1021,
+      "product_id": 47,
+      "color": "noir",
+      "size": 37,
+      "stock": 20
+    },
+    {
+      "id": 1022,
+      "product_id": 47,
+      "color": "blanc",
+      "size": 37,
+      "stock": 9
+    },
+    {
+      "id": 1023,
+      "product_id": 47,
+      "color": "rouge",
+      "size": 37,
+      "stock": 15
+    },
+    {
+      "id": 1024,
+      "product_id": 47,
+      "color": "noir",
+      "size": 38,
+      "stock": 20
+    },
+    {
+      "id": 1025,
+      "product_id": 47,
+      "color": "blanc",
+      "size": 38,
+      "stock": 7
+    },
+    {
+      "id": 1026,
+      "product_id": 47,
+      "color": "rouge",
+      "size": 38,
+      "stock": 13
+    },
+    {
+      "id": 1027,
+      "product_id": 47,
+      "color": "noir",
+      "size": 39,
+      "stock": 18
+    },
+    {
+      "id": 1028,
+      "product_id": 47,
+      "color": "blanc",
+      "size": 39,
+      "stock": 10
+    },
+    {
+      "id": 1029,
+      "product_id": 47,
+      "color": "rouge",
+      "size": 39,
+      "stock": 12
+    },
+    {
+      "id": 1030,
+      "product_id": 47,
+      "color": "noir",
+      "size": 40,
+      "stock": 20
+    },
+    {
+      "id": 1031,
+      "product_id": 47,
+      "color": "blanc",
+      "size": 40,
+      "stock": 10
+    },
+    {
+      "id": 1032,
+      "product_id": 47,
+      "color": "rouge",
+      "size": 40,
+      "stock": 17
+    },
+    {
+      "id": 1033,
+      "product_id": 47,
+      "color": "noir",
+      "size": 41,
+      "stock": 10
+    },
+    {
+      "id": 1034,
+      "product_id": 47,
+      "color": "blanc",
+      "size": 41,
+      "stock": 16
+    },
+    {
+      "id": 1035,
+      "product_id": 47,
+      "color": "rouge",
+      "size": 41,
+      "stock": 9
+    },
+    {
+      "id": 1036,
+      "product_id": 47,
+      "color": "noir",
+      "size": 42,
+      "stock": 17
+    },
+    {
+      "id": 1037,
+      "product_id": 47,
+      "color": "blanc",
+      "size": 42,
+      "stock": 18
+    },
+    {
+      "id": 1038,
+      "product_id": 47,
+      "color": "rouge",
+      "size": 42,
+      "stock": 13
+    },
+    {
+      "id": 1039,
+      "product_id": 48,
+      "color": "noir",
+      "size": 40,
+      "stock": 19
+    },
+    {
+      "id": 1040,
+      "product_id": 48,
+      "color": "blanc",
+      "size": 40,
+      "stock": 11
+    },
+    {
+      "id": 1041,
+      "product_id": 48,
+      "color": "rouge",
+      "size": 40,
+      "stock": 6
+    },
+    {
+      "id": 1042,
+      "product_id": 48,
+      "color": "noir",
+      "size": 41,
+      "stock": 16
+    },
+    {
+      "id": 1043,
+      "product_id": 48,
+      "color": "blanc",
+      "size": 41,
+      "stock": 20
+    },
+    {
+      "id": 1044,
+      "product_id": 48,
+      "color": "rouge",
+      "size": 41,
+      "stock": 18
+    },
+    {
+      "id": 1045,
+      "product_id": 48,
+      "color": "noir",
+      "size": 42,
+      "stock": 11
+    },
+    {
+      "id": 1046,
+      "product_id": 48,
+      "color": "blanc",
+      "size": 42,
+      "stock": 20
+    },
+    {
+      "id": 1047,
+      "product_id": 48,
+      "color": "rouge",
+      "size": 42,
+      "stock": 12
+    },
+    {
+      "id": 1048,
+      "product_id": 48,
+      "color": "noir",
+      "size": 43,
+      "stock": 16
+    },
+    {
+      "id": 1049,
+      "product_id": 48,
+      "color": "blanc",
+      "size": 43,
+      "stock": 15
+    },
+    {
+      "id": 1050,
+      "product_id": 48,
+      "color": "rouge",
+      "size": 43,
+      "stock": 9
+    },
+    {
+      "id": 1051,
+      "product_id": 48,
+      "color": "noir",
+      "size": 44,
+      "stock": 19
+    },
+    {
+      "id": 1052,
+      "product_id": 48,
+      "color": "blanc",
+      "size": 44,
+      "stock": 5
+    },
+    {
+      "id": 1053,
+      "product_id": 48,
+      "color": "rouge",
+      "size": 44,
+      "stock": 13
+    },
+    {
+      "id": 1054,
+      "product_id": 48,
+      "color": "noir",
+      "size": 45,
+      "stock": 9
+    },
+    {
+      "id": 1055,
+      "product_id": 48,
+      "color": "blanc",
+      "size": 45,
+      "stock": 14
+    },
+    {
+      "id": 1056,
+      "product_id": 48,
+      "color": "rouge",
+      "size": 45,
+      "stock": 19
+    },
+    {
+      "id": 1057,
+      "product_id": 48,
+      "color": "noir",
+      "size": 46,
+      "stock": 5
+    },
+    {
+      "id": 1058,
+      "product_id": 48,
+      "color": "blanc",
+      "size": 46,
+      "stock": 14
+    },
+    {
+      "id": 1059,
+      "product_id": 48,
+      "color": "rouge",
+      "size": 46,
+      "stock": 9
+    }
+  ]
+}
