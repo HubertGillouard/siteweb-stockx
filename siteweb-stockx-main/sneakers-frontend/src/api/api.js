@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: process.env.REACT_APP_API_URL || "http://localhost:4000" });
+const API = axios.create({ baseURL: process.env.REACT_APP_API_URL || "http://localhost:5000" });
 
 // Gestion du token
 export const setToken = (token) => {
@@ -23,5 +23,11 @@ export const deleteProduct = (id) => API.delete(`/products/${id}`);
 
 // IMAGES
 export const getImages = (productId) => API.get(`/images/${productId}`);
+
+// COMMANDES
+export const createOrder = (data) => API.post("/orders", data);
+
+// PAIEMENTS
+export const createPayment = (data) => API.post("/payments", data);
 
 export default API;

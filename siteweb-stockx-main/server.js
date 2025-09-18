@@ -5,6 +5,11 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
 require('dotenv').config();
+const ordersRouter = require('./routes/order');
+const paymentRoutes = require("./routes/payments");
+app.use("/api/payments", paymentRoutes);
+
+
 
 const app = express();
 const port = process.env.PORT || 4000;

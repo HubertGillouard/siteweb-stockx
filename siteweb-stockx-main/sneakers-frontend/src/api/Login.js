@@ -17,7 +17,7 @@ export default function Login({ onLogin }) {
       } else {
         alert("Identifiants invalides");
       }
-    } catch (err) {
+    } catch (err) {y
       alert(err.response?.data?.message || "Erreur serveur");
     }
   };

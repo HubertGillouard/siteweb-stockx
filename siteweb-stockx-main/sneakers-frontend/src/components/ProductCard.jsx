@@ -1,10 +1,11 @@
-// src/components/ProductCard.jsx
-import React from "react";
+import React, { useContext } from "react";
 import { Card, CardMedia, CardContent, Typography, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { CartContext } from "../contexts/CartContext";
 
 export default function ProductCard({ product }) {
   const navigate = useNavigate();
+  const { addToCart } = useContext(CartContext);
 
   return (
     <Card sx={{ maxWidth: 345, m: 2, boxShadow: 3 }}>
@@ -22,6 +23,9 @@ export default function ProductCard({ product }) {
         </Typography>
         <Button onClick={() => navigate(`/product/${product.id}`)}>
           Voir détails
+        </Button>
+        <Button onClick={() => addToCart(product)} sx={{ ml: 2 }}>
+          Ajouter au panier
         </Button>
       </CardContent>
     </Card>
