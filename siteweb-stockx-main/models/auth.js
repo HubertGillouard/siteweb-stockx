@@ -1,31 +1,19 @@
-const express = require('express');
-const router = express.Router();
-const { createUser, getUserByEmail } = require('../models/user');
+const pool = require('../db');
 const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
 
-// Inscription
-router.post('/register', async (req, res) => {
-    const { email, password, first_name, last_name } = req.body;
-    try {
-        const user = await createUser({ email, password, first_name, last_name });
-        res.json({ user });
-    } catch (err) {
-        res.status(400).json({ error: err.message });
-    }
-});
+async function createUser({ email, password, first_name, last_name, role = 'customer' }) {
+  const password_hash = await bcrypt.hash(password, 10);
+  const result = await pool.query(
+    `INSERT INTO users (email, password_hash, first_name, last_name, role)
+     VALUES ($1,$2,$3,$4,$5) RETURNING id, email, first_name, last_name, role`,
+    [email, password_hash, first_name, last_name, role]
+  );
+  return result.rows[0];
+}
 
-// Connexion
-router.post('/login', async (req, res) => {
-    const { email, password } = req.body;
-    const user = await getUserByEmail(email);
-    if (!user) return res.status(400).json({ error: 'Utilisateur non trouvé' });
+async function getUserByEmail(email) {
+  const result = await pool.query('SELECT * FROM users WHERE email=$1', [email]);
+  return result.rows[0] || null;
+}
 
-    const valid = await bcrypt.compare(password, user.password_hash);
-    if (!valid) return res.status(400).json({ error: 'Mot de passe incorrect' });
-
-    const token = jwt.sign({ id: user.id, role: user.role }, process.env.SECRET_KEY, { expiresIn: '1h' });
-    res.json({ token });
-});
-
-module.exports = router;
+module.exports = { createUser, getUserByEmail };

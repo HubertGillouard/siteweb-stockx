@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { login, register } from "../api/api";
 import { TextField, Button, Typography } from "@mui/material";
 
@@ -33,42 +33,14 @@ export default function Login({ onLogin }) {
       <Typography variant="h5">{isRegister ? "Inscription" : "Connexion"}</Typography>
       {isRegister && (
         <>
-          <TextField
-            label="Prénom"
-            value={firstName}
-            onChange={(e) => setFirstName(e.target.value)}
-            sx={{ display: "block", my: 1 }}
-          />
-          <TextField
-            label="Nom"
-            value={lastName}
-            onChange={(e) => setLastName(e.target.value)}
-            sx={{ display: "block", my: 1 }}
-          />
+          <TextField label="Prénom" value={firstName} onChange={(e) => setFirstName(e.target.value)} sx={{ display: "block", my: 1 }} />
+          <TextField label="Nom" value={lastName} onChange={(e) => setLastName(e.target.value)} sx={{ display: "block", my: 1 }} />
         </>
       )}
-      <TextField
-        type="email"
-        label="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        sx={{ display: "block", my: 1 }}
-      />
-      <TextField
-        type="password"
-        label="Mot de passe"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        sx={{ display: "block", my: 1 }}
-      />
-      <Button type="submit" variant="contained" sx={{ my: 1 }}>
-        {isRegister ? "S'inscrire" : "Se connecter"}
-      </Button>
-      <Typography
-        variant="body2"
-        sx={{ mt: 1, cursor: "pointer", color: "blue" }}
-        onClick={() => setIsRegister(!isRegister)}
-      >
+      <TextField type="email" label="Email" value={email} onChange={(e) => setEmail(e.target.value)} sx={{ display: "block", my: 1 }} />
+      <TextField type="password" label="Mot de passe" value={password} onChange={(e) => setPassword(e.target.value)} sx={{ display: "block", my: 1 }} />
+      <Button type="submit" variant="contained" sx={{ my: 1 }}>{isRegister ? "S'inscrire" : "Se connecter"}</Button>
+      <Typography variant="body2" sx={{ mt: 1, cursor: "pointer", color: "blue" }} onClick={() => setIsRegister(!isRegister)}>
         {isRegister ? "Déjà un compte ? Se connecter" : "Pas de compte ? S'inscrire"}
       </Typography>
     </form>

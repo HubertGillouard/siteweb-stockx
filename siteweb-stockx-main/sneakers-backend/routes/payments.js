@@ -1,11 +1,10 @@
-// routes/payments.js
-const express = require("express");
+const express = require('express');
 const router = express.Router();
+const { authenticate } = require('../middleware/auth');
 
-router.post("/", (req, res) => {
-  // Paiement fictif : on renvoie juste un id
-  const fakePaymentId = Math.floor(Math.random() * 1000000);
-  res.json({ id: fakePaymentId, status: "success" });
+router.post('/', authenticate, async (req, res) => {
+  const { amount } = req.body;
+  res.json({ id: Math.floor(Math.random()*1000000), client_secret: "fake_secret_"+amount });
 });
 
 module.exports = router;

@@ -14,8 +14,8 @@ export default function ProductDetail() {
         const p = res.data;
         setProduct({
           id: p.id,
-          name: p.nom,    // <- backend utilise "nom"
-          price: p.prix,  // <- backend utilise "prix"
+          name: p.name || p.nom,    // <- backend peut renvoyer name ou nom
+          price: Number(p.price || p.prix),  // <- backend peut renvoyer price ou prix
           link: p.link || "/placeholder.jpg"
         });
       })
@@ -26,9 +26,9 @@ export default function ProductDetail() {
 
   return (
     <div className="product-detail">
-      <img src={product.link} alt={product.name} />
+      <img src={product.link} alt={product.name} style={{ width: "300px" }} />
       <h2>{product.name}</h2>
-      <p>{product.price}</p>
+      <p>{product.price.toFixed(2)} €</p>
       <button onClick={() => addToCart(product)}>Ajouter au panier</button>
     </div>
   );
