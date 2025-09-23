@@ -9,7 +9,7 @@ interface CartSidebarProps {
 }
 
 export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
-  const { items, updateQuantity, removeItem, total, loading } = useCart();
+  const { items, updateQuantity, removeItem, total } = useCart();
   const { user } = useAuth();
 
   if (!isOpen) return null;
@@ -25,13 +25,11 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
       {/* Sidebar */}
       <div className="fixed right-0 top-0 h-full w-full max-w-md bg-white z-50 transform transition-transform">
         <div className="flex flex-col h-full">
+
           {/* Header */}
           <div className="flex items-center justify-between p-6 border-b border-gray-200">
             <h2 className="text-lg font-semibold">Panier ({items.length})</h2>
-            <button
-              onClick={onClose}
-              className="p-2 hover:bg-gray-100 rounded-md transition-colors"
-            >
+            <button onClick={onClose} className="p-2 hover:bg-gray-100 rounded-md transition-colors">
               <X className="w-5 h-5" />
             </button>
           </div>
@@ -51,21 +49,17 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
               </div>
             ) : (
               <div className="p-6 space-y-4">
-                {items.map((item) => {
+                {items.map(item => {
                   const variant = item.product_variant;
                   const product = variant?.product;
-                  const primaryImage = product?.images?.find(img => img.is_primary);
+                  const primaryImage = product?.images?.[0];
 
                   return (
                     <div key={item.id} className="flex space-x-4 py-4 border-b border-gray-100">
                       {/* Image */}
                       <div className="w-20 h-20 bg-gray-100 rounded-md overflow-hidden flex-shrink-0">
                         {primaryImage ? (
-                          <img
-                            src={primaryImage.image_url}
-                            alt={product?.name}
-                            className="w-full h-full object-cover"
-                          />
+                          <img src={primaryImage.url} alt={product?.name} className="w-full h-full object-cover" />
                         ) : (
                           <div className="w-full h-full bg-gray-200" />
                         )}
@@ -73,15 +67,11 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
 
                       {/* Details */}
                       <div className="flex-1 min-w-0">
-                        <h3 className="font-medium text-sm text-gray-900 truncate">
-                          {product?.name}
-                        </h3>
+                        <h3 className="font-medium text-sm text-gray-900 truncate">{product?.name}</h3>
                         <p className="text-xs text-gray-500">
                           {product?.brand?.name} • Taille {variant?.size} • {variant?.color}
                         </p>
-                        <p className="text-sm font-semibold text-gray-900 mt-1">
-                          €{variant?.price.toFixed(2)}
-                        </p>
+                        <p className="text-sm font-semibold text-gray-900 mt-1">€{variant?.price.toFixed(2)}</p>
 
                         {/* Quantity controls */}
                         <div className="flex items-center justify-between mt-2">
@@ -89,23 +79,22 @@ export default function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
                             <button
                               onClick={() => updateQuantity(item.id, item.quantity - 1)}
                               className="p-1 hover:bg-gray-100 rounded"
+                              disabled={item.quantity <= 1}
                             >
                               <Minus className="w-4 h-4" />
                             </button>
-                            <span className="text-sm font-medium w-8 text-center">
-                              {item.quantity}
-                            </span>
+                            <span className="text-sm font-medium w-8 text-center">{item.quantity}</span>
                             <button
-                              onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                              onClick={() => {
+                                if (item.quantity < (variant?.stock || 0)) updateQuantity(item.id, item.quantity + 1);
+                                else alert('Stock insuffisant pour cette variante');
+                              }}
                               className="p-1 hover:bg-gray-100 rounded"
                             >
                               <Plus className="w-4 h-4" />
                             </button>
                           </div>
-                          <button
-                            onClick={() => removeItem(item.id)}
-                            className="p-1 text-red-500 hover:text-red-700"
-                          >
+                          <button onClick={() => removeItem(item.id)} className="p-1 text-red-500 hover:text-red-700">
                             <Trash2 className="w-4 h-4" />
                           </button>
                         </div>

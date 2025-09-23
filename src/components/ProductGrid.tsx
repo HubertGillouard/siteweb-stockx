@@ -1,16 +1,10 @@
 import React from 'react';
 import ProductCard from './ProductCard';
-
-interface Product {
-  id: string;
-  name: string;
-  images?: { url: string }[];
-  // ajoute d'autres champs si nécessaire
-}
+import { Product } from '../types';
 
 interface ProductGridProps {
   products: Product[];
-  onAddToCart: (product: Product) => void;
+  onAddToCart: (productId: string, variantId: string) => void;
   onProductClick: (productId: string) => void;
 }
 
