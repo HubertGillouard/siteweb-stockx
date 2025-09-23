@@ -1,47 +1,50 @@
-import React, { useState, useEffect } from "react";
-
-const COOKIE_KEY = "sneakers_cookie_consent";
+import React, { useEffect, useState } from "react";
+import { getConsent, setConsent } from "../api";
 
 export default function CookieBanner() {
   const [visible, setVisible] = useState(false);
-  const [consent, setConsent] = useState({ analytics: false, marketing: false, personalization: false });
 
   useEffect(() => {
-    const savedConsent = localStorage.getItem(COOKIE_KEY);
-    if (!savedConsent) setVisible(true);
-    else setConsent(JSON.parse(savedConsent));
+    (async () => {
+      const c = await getConsent();
+      setVisible(!c); // affiche si pas encore consenti
+    })();
   }, []);
-
-  const handleAcceptAll = () => {
-    const allConsent = { analytics: true, marketing: true, personalization: true };
-    localStorage.setItem(COOKIE_KEY, JSON.stringify(allConsent));
-    setConsent(allConsent);
-    setVisible(false);
-  };
-
-  const handleSavePreferences = () => {
-    localStorage.setItem(COOKIE_KEY, JSON.stringify(consent));
-    setVisible(false);
-  };
 
   if (!visible) return null;
 
+  const acceptAll = async () => {
+    await setConsent("all");
+    setVisible(false);
+  };
+
+  const refuseAll = async () => {
+    await setConsent("none");
+    setVisible(false);
+  };
+
   return (
-    <div style={{ position: "fixed", bottom: 0, left: 0, right: 0, backgroundColor: "#111", color: "#fff", padding: "1rem", zIndex: 999 }}>
-      <h3>Nous utilisons des cookies 🍪</h3>
-      <p>Améliorer l'expérience, analyser le trafic et personnaliser le contenu.</p>
-
-      <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-        <label><input type="checkbox" checked disabled /> Essentiels (nécessaires)</label>
-        <label><input type="checkbox" checked={consent.analytics} onChange={(e) => setConsent({ ...consent, analytics: e.target.checked })} /> Analytiques</label>
-        <label><input type="checkbox" checked={consent.marketing} onChange={(e) => setConsent({ ...consent, marketing: e.target.checked })} /> Marketing</label>
-        <label><input type="checkbox" checked={consent.personalization} onChange={(e) => setConsent({ ...consent, personalization: e.target.checked })} /> Personnalisation</label>
+    <div style={s.wrap} role="dialog" aria-live="polite">
+      <div style={s.text}>
+        Nous utilisons des cookies pour améliorer votre expérience.{" "}
+        <a href="/legal" style={{ color: "#cce" }}>En savoir plus</a>
       </div>
-
-      <div style={{ marginTop: "1rem", display: "flex", gap: "1rem" }}>
-        <button onClick={handleAcceptAll} style={{ flex: 1 }}>Tout accepter ✅</button>
-        <button onClick={handleSavePreferences} style={{ flex: 1 }}>Enregistrer mes choix 💾</button>
+      <div style={s.actions}>
+        <button onClick={refuseAll} style={s.secondary}>Tout refuser</button>
+        <button onClick={acceptAll} style={s.primary}>Tout accepter</button>
       </div>
     </div>
   );
 }
+
+const s = {
+  wrap: {
+    position: "fixed", left: 12, right: 12, bottom: 12, zIndex: 10000,
+    background: "#111", color: "#fff", padding: 12, borderRadius: 12,
+    display: "flex", gap: 12, alignItems: "center", boxShadow: "0 8px 30px rgba(0,0,0,.35)"
+  },
+  text: { flex: 1, lineHeight: 1.35 },
+  actions: { display: "flex", gap: 8 },
+  primary: { background: "#06f", color: "#fff", border: 0, borderRadius: 8, padding: "8px 12px", cursor: "pointer" },
+  secondary: { background: "#333", color: "#fff", border: 0, borderRadius: 8, padding: "8px 12px", cursor: "pointer" },
+};

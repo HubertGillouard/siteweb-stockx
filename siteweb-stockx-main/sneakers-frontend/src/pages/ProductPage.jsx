@@ -1,44 +1,36 @@
-import React, { useEffect, useState, useContext } from "react";
-import { useParams } from "react-router-dom";
-import { getProduct, getImages } from "../api/api";
-import { CartContext } from "../contexts/CartContext";
+// sneakers-frontend/src/pages/ProductList.jsx
+import React, { useEffect, useState } from "react";
+import { getProducts, ensureArray } from "../api";
+import ProductCard from "../components/ProductCard.jsx";
 
-export default function ProductPage() {
-  const { id } = useParams();
-  const [product, setProduct] = useState(null);
-  const { addToCart } = useContext(CartContext);
+export default function ProductList() {
+  const [rows, setRows] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [err, setErr] = useState(null);
 
   useEffect(() => {
-    const fetchProduct = async () => {
+    let alive = true;
+    (async () => {
       try {
-        const res = await getProduct(id);
-        const p = res.data;
-        const imgRes = await getImages(p.id);
-
-        setProduct({
-          ...p,
-          price: Number(p.price),
-          link: imgRes.data[0]?.url || "/placeholder.jpg"
-        });
-      } catch (err) {
-        console.error(err);
+        const data = await getProducts();
+        if (alive) setRows(ensureArray(data));
+      } catch (e) {
+        console.error(e);
+        setErr(e);
+      } finally {
+        if (alive) setLoading(false);
       }
-    };
-    fetchProduct();
-  }, [id]);
+    })();
+    return () => { alive = false; };
+  }, []);
 
-  if (!product) return <div>Chargement...</div>;
+  if (loading) return <p style={{ padding: 16 }}>Chargement…</p>;
+  if (err) return <p style={{ padding: 16, color: "crimson" }}>Erreur : {String(err)}</p>;
+  if (!rows.length) return <p style={{ padding: 16 }}>Aucun produit à afficher.</p>;
 
   return (
-    <div style={{ padding: "2rem", display: "flex", gap: "2rem" }}>
-      <img src={product.link} alt={product.name} style={{ width: "300px", borderRadius: "8px" }} />
-      <div>
-        <h2>{product.name}</h2>
-        <p style={{ fontWeight: "bold" }}>{product.price.toFixed(2)} €</p>
-        <button onClick={() => addToCart(product)} style={{ padding: "0.5rem 1rem", cursor: "pointer" }}>
-          Ajouter au panier
-        </button>
-      </div>
+    <div style={{ padding: 16, display: "grid", gap: 16, gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))" }}>
+      {rows.map((p) => <ProductCard key={p.id} product={p} />)}
     </div>
   );
 }

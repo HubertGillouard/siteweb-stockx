@@ -1,39 +1,14 @@
-import React, { useEffect, useState } from "react";
-import { getProducts, getImages } from "../api/api";
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Home() {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    const fetch = async () => {
-      const res = await getProducts();
-      const data = await Promise.all(res.data.map(async p => {
-        const imgRes = await getImages(p.id);
-        return {
-          ...p,
-          price: Number(p.price),
-          link: imgRes.data[0]?.url || "/placeholder.jpg"
-        };
-      }));
-      setProducts(data);
-    };
-    fetch();
-  }, []);
-
   return (
-    <div className="container">
-      <h1>Nos Sneakers</h1>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(250px,1fr))", gap: "1rem" }}>
-        {products.map(p => (
-          <Link key={p.id} to={`/product/${p.id}`} className="product-card">
-            <img src={p.link} alt={p.name} />
-            <div className="product-card-content">
-              <h2>{p.name}</h2>
-              <p>{p.price.toFixed(2)} €</p>
-            </div>
-          </Link>
-        ))}
+    <div className="card">
+      <h2>Bienvenue 👟</h2>
+      <p>Parcourez nos modèles et profitez d’un parcours d’achat complet (panier → paiement fictif) avec gestion des rôles et du stock.</p>
+      <div className="row" style={{gap:10}}>
+        <Link className="btn" to="/catalog">Voir le catalogue</Link>
+        <Link className="btn secondary" to="/legal">RGPD & Confidentialité</Link>
       </div>
     </div>
   );

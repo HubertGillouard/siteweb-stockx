@@ -1,72 +1,68 @@
-import React, { useContext, useState } from "react";
-import { CartContext } from "../contexts/CartContext";
-import { loadStripe } from "@stripe/stripe-js";
-import {
-  Elements,
-  CardElement,
-  useStripe,
-  useElements
-} from "@stripe/react-stripe-js";
+import React, { useState } from "react";
 
-// Ta clé publique Stripe (test)
-const stripePromise = loadStripe("pk_test_XXXXXXXXXXXXXXXXXXXX");
+export default function CheckoutForm({ onSubmit, submitting }) {
+  const [form, setForm] = useState({
+    email: "",
+    name: "",
+    address: "",
+    city: "",
+    zip: "",
+    cardNumber: "",
+    exp: "",
+    cvc: "",
+  });
 
-const CheckoutFormInner = () => {
-  const { cart, subtotal, clearCart } = useContext(CartContext);
-  const stripe = useStripe();
-  const elements = useElements();
-  const [loading, setLoading] = useState(false);
-  const [message, setMessage] = useState("");
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (!stripe || !elements) return;
-
-    setLoading(true);
-    try {
-      // 1️⃣ Crée un paiement côté serveur
-      const res = await fetch("http://localhost:4000/api/payments", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ amount: subtotal })
-      });
-      const paymentData = await res.json();
-
-      if (!res.ok) throw new Error(paymentData.message || "Erreur paiement");
-
-      // 2️⃣ Confirm payment via Stripe (simulé)
-      const { error } = await stripe.confirmCardPayment(paymentData.client_secret, {
-        payment_method: { card: elements.getElement(CardElement) }
-      });
-
-      if (error) throw error;
-
-      clearCart();
-      setMessage("✅ Paiement effectué avec succès !");
-    } catch (err) {
-      console.error(err);
-      setMessage(`❌ Erreur : ${err.message}`);
-    } finally {
-      setLoading(false);
-    }
-  };
+  function up(k, v) { setForm((f) => ({ ...f, [k]: v })); }
 
   return (
-    <form onSubmit={handleSubmit} style={{ maxWidth: 400 }}>
-      <p>Total : {subtotal.toFixed(2)} €</p>
-      <CardElement options={{ hidePostalCode: true, style: { base: { fontSize: "16px" } } }} />
-      <button type="submit" disabled={!stripe || loading} style={{ marginTop: 10 }}>
-        {loading ? "Paiement..." : "Payer maintenant"}
-      </button>
-      {message && <p>{message}</p>}
+    <form onSubmit={(e) => { e.preventDefault(); onSubmit(form); }} className="card">
+      <h3>Informations client</h3>
+      <div className="row wrap">
+        <div style={{flex:1, minWidth:260}}>
+          <label>Email</label>
+          <input className="input" type="email" required value={form.email} onChange={e=>up("email", e.target.value)} />
+        </div>
+        <div style={{flex:1, minWidth:260}}>
+          <label>Nom</label>
+          <input className="input" required value={form.name} onChange={e=>up("name", e.target.value)} />
+        </div>
+      </div>
+
+      <h3 style={{marginTop:16}}>Adresse</h3>
+      <div className="row wrap">
+        <div style={{flex:2, minWidth:260}}>
+          <label>Adresse</label>
+          <input className="input" required value={form.address} onChange={e=>up("address", e.target.value)} />
+        </div>
+        <div style={{flex:1, minWidth:160}}>
+          <label>Ville</label>
+          <input className="input" required value={form.city} onChange={e=>up("city", e.target.value)} />
+        </div>
+        <div style={{width:140}}>
+          <label>Code postal</label>
+          <input className="input" required value={form.zip} onChange={e=>up("zip", e.target.value)} />
+        </div>
+      </div>
+
+      <h3 style={{marginTop:16}}>Paiement (fictif)</h3>
+      <div className="row wrap">
+        <div style={{flex:2, minWidth:220}}>
+          <label>Numéro de carte</label>
+          <input className="input" required value={form.cardNumber} onChange={e=>up("cardNumber", e.target.value)} placeholder="4242 4242 4242 4242" />
+        </div>
+        <div style={{width:120}}>
+          <label>Expiration</label>
+          <input className="input" required value={form.exp} onChange={e=>up("exp", e.target.value)} placeholder="10/28" />
+        </div>
+        <div style={{width:100}}>
+          <label>CVC</label>
+          <input className="input" required value={form.cvc} onChange={e=>up("cvc", e.target.value)} placeholder="123" />
+        </div>
+      </div>
+
+      <div className="row" style={{justifyContent:"flex-end", marginTop:16}}>
+        <button className="btn" disabled={submitting}>Valider et payer</button>
+      </div>
     </form>
-  );
-};
-
-export default function CheckoutForm() {
-  return (
-    <Elements stripe={stripePromise}>
-      <CheckoutFormInner />
-    </Elements>
   );
 }

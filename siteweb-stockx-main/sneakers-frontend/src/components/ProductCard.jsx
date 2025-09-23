@@ -1,18 +1,43 @@
-import React, { useContext } from "react";
-import { CartContext } from "../contexts/CartContext";
+import React from "react";
 import { Link } from "react-router-dom";
+import { resolveImg, formatPrice } from "../api";
 
 export default function ProductCard({ product }) {
-  const { addToCart } = useContext(CartContext);
+  if (!product) return null;
+
+  const img = resolveImg(product.link);
+  const price = formatPrice(product.price);
 
   return (
-    <div style={{ border: "1px solid #ddd", borderRadius: "8px", padding: "1rem", textAlign: "center", backgroundColor: "#fff" }}>
-      <Link to={`/product/${product.id}`}>
-        <img src={product.link || "/placeholder.jpg"} alt={product.name} style={{ width: "100%", borderRadius: "8px" }} />
+    <div className="product-card" style={styles.card}>
+      <Link to={`/product/${product.id}`} style={styles.link} aria-label={product.name}>
+        <img
+          src={img}
+          alt={product.name}
+          style={styles.img}
+          loading="lazy"
+          decoding="async"
+        />
+        <div style={styles.body}>
+          <h3 style={styles.title}>{product.name}</h3>
+          <div style={styles.price}>{price}</div>
+        </div>
       </Link>
-      <h3>{product.name}</h3>
-      <p style={{ fontWeight: "bold" }}>{Number(product.price).toFixed(2)} €</p>
-      <button onClick={() => addToCart(product)}>Ajouter au panier</button>
     </div>
   );
 }
+
+const styles = {
+  card: {
+    border: "1px solid #eee",
+    borderRadius: 12,
+    overflow: "hidden",
+    background: "#fff",
+    transition: "transform .15s ease",
+  },
+  link: { color: "inherit", textDecoration: "none", display: "block" },
+  img: { display: "block", width: "100%", height: "auto", aspectRatio: "1/1", objectFit: "cover" },
+  body: { padding: 12 },
+  title: { margin: "0 0 6px", fontSize: 16, lineHeight: 1.2 },
+  price: { fontWeight: 600 },
+};
